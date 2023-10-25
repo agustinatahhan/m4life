@@ -13,6 +13,15 @@
     "what_we_do":{
         "title": "We promote crop growth in extreme environments and under abiotic stress."
     },
+    "how_we_do":{
+        "title": "How we do it?"
+    },
+    "where_we_do":{
+        "title": "Where we do it?"
+    },
+    "our_product": {
+        "title": "Our product"
+    },
     "team": {
         "our_team": "Our Team",
         "advisors": "Mentors and advisors"

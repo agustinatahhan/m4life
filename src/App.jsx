@@ -1,5 +1,6 @@
 import "./App.css";
 import Nav from "./Components/Nav/Nav";
+import HowWeDo from "./Views/HowWeDo/HowWeDo";
 import Landing from "./Views/Landing/Landing";
 
 import Team from "./Views/Team/Team";
@@ -10,6 +11,7 @@ function App() {
       <Nav />
       <Landing />
       <WhatWeDo/>
+      <HowWeDo/>
       <Team />
   
     </>

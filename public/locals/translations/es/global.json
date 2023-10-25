@@ -13,6 +13,15 @@
     "what_we_do":{
         "title": "Promovemos el crecimiento de cultivos en entornos extremos y bajo estrés abiótico."
     },
+    "how_we_do":{
+        "title": "Cómo lo hacemos?"
+    },
+    "where_we_do":{
+        "title": "Dónde lo hacemos?"
+    },
+    "our_product": {
+        "title": "Nuestro producto"
+    },
     "team": {
         "our_team": "Nuestro Equipo",
         "advisors": "Mentores y asesores"
