@@ -1,24 +1,19 @@
-import './App.css'
-import Nav from './Components/Nav/Nav'
-import AOS from "aos";
-import "aos/dist/aos.css";
-import { useEffect } from "react";
-import { useTranslation } from "react-i18next";
+import "./App.css";
+import Nav from "./Components/Nav/Nav";
+import Landing from "./Views/Landing/Landing";
+
+import Team from "./Views/Team/Team";
+import WhatWeDo from "./Views/WhatWeDo/WhatWeDo";
 function App() {
-  const { t } = useTranslation("global");
-
-  useEffect(() => {
-    AOS.init();
-  }, []);
-
-
   return (
     <>
-    <Nav/>
-      <h1>M4LIFE</h1>
-      <h2>{t("header.title")}</h2>
+      <Nav />
+      <Landing />
+      <WhatWeDo/>
+      <Team />
+  
     </>
-  )
+  );
 }
 
-export default App
+export default App;

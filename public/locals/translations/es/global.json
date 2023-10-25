@@ -1,5 +1,21 @@
 {
+    "nav": {
+        "links": {
+            "what_we_do": "Qué hacemos",
+            "our_product": "Nuestro Producto",
+            "our_team": "Nuestro Equipo",
+            "contact_us": "Contáctanos"
+        }
+    },
     "header": {
-        "title": "Promovemos el crecimiento de cultivos en cntornos cxtremos y bajo estrés abiótico."
+        "title": "Desarrollamos soluciones microbiológicas para la agricultura y el ambiente"
+    },
+    "what_we_do":{
+        "title": "Promovemos el crecimiento de cultivos en entornos extremos y bajo estrés abiótico."
+    },
+    "team": {
+        "our_team": "Nuestro Equipo",
+        "advisors": "Mentores y asesores"
+
     }
 }

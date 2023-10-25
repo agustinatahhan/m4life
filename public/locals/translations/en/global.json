@@ -1,5 +1,20 @@
 {
+    "nav": {
+        "links": {
+            "what_we_do": "What we do",
+            "our_product": "Our product",
+            "our_team": "Our team",
+            "contact_us": "Contact us"
+        }
+    },
     "header": {
+        "title": "We develop Microbiological Solutions for agriculture and the environment"
+    },
+    "what_we_do":{
         "title": "We promote crop growth in extreme environments and under abiotic stress."
+    },
+    "team": {
+        "our_team": "Our Team",
+        "advisors": "Mentors and advisors"
     }
 }
