@@ -2,9 +2,9 @@ import style from "./Nav.module.css";
 import { useTranslation } from "react-i18next";
 import { useState } from "react";
 import i18next from "i18next";
-// import { useEffect } from "react";
-// import AOS from "aos";
-// import "aos/dist/aos.css";
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import logo from "../../assets/Img/logom4life.png";
 
 const languages = [
@@ -22,8 +22,8 @@ const languages = [
 
 const LanguageIcon = () => (
   <svg
-    width="20"
-    height="20"
+    width="32"
+    height="32"
     viewBox="0 0 24 24"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -43,81 +43,84 @@ const Nav = () => {
   };
 
   // const [showOptions, setShowOptions] = useState(false);
-
+  useEffect(() => {
+    AOS.init();
+  }, []);
   const handleMenuClick = () => {
     setShowOptions((prevShowOptions) => !prevShowOptions);
   };
   return (
-    <nav data-aos="zoom-out">
-      <div className={` ${style.grid} ${style.containerCenter}`}>
-        <img className={style.logo} src={logo} alt="logo" />
-        <div className={style.menuContainer}>
-          {/* <input
-            hidden
-            className={style.checkIcon}
-            id="check-icon"
-            name="check-icon"
-            type="checkbox"
-            checked={showOptions}
-            onChange={handleMenuClick}
-          />
-          <label className={style.iconMenu} htmlFor="check-icon">
-            <div className={`${style.bar} ${style.bar1}`}></div>
-            <div className={`${style.bar} ${style.bar2}`}></div>
-            <div className={`${style.bar} ${style.bar3}`}></div>
-          </label> */}
-          {/* {showOptions && (
-            <div className={style.enlaces}>
-              <a href="#home">Home</a>
-              <a href="#about">About me</a>
-              <a href="#skills">Skills</a>
-              <a href="#projects">Projects</a>
-              <a href="#footer">Contact</a>
-            </div>
-          )} */}
-
-          {/* {showOptions && (
-            <div className={style.enlaces}>
-              <a href="#home">{t("nav.home")}</a>
-              <a href="#about">{t("nav.about")}</a>
-              <a href="#skills">{t("nav.skills")}</a>
-              <a href="#projects">{t("nav.projects")}</a>
-              <a href="#footer">{t("nav.contact")}</a>
-            </div>
-          )} */}
-          <div className={style.enlaces1}  >
-            <a href="">{t("nav.links.what_we_do")}</a>
-            <a href="">{t("nav.links.our_product")}</a>
-            <a href="">{t("nav.links.our_team")}</a>
-            <a href="">{t("nav.links.contact_us")}</a>
-          </div>
-
-          <div className={style.languageMenu}>
-            <button
-              className={style.languageButton}
-              onClick={() => setShowLanguageMenu(!showLanguageMenu)}
-            >
-              <LanguageIcon />
-              {i18n.language.toUpperCase()}
-            </button>
-            {showLanguageMenu && (
-              <ul className={style.languageDropdown}>
-                {languages.map(({ code, name, country_code }) => (
-                  <li
-                    key={country_code}
-                    onClick={() => handleLanguageChange(code)}
-                  >
+   
+    <nav class="navbar navbar-expand-lg bg-tertiary navbar-idea p-3 fixed-top">
+      <div class="container-fluid d-flex mx-5">
+        <a class="navbar-brand my-2 fw-bold fs-1" href="/">
+          <img className={style.logo} src={logo} alt="logo" />
+        </a>
+        <button
+          class="navbar-toggler menu"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-evenly"
+          id="navbarSupportedContent"
+          
+        >
+          <ul class="navbar-nav mb-2 mb-lg-0 fw-medium fs-4">
+            <li className={`nav-item justify-content-center ${style.links}`}>
+              <a class="nav-link me-4 text-white" aria-current="page" href="">
+                {t("nav.links.what_we_do")}
+              </a>
+            </li>
+            <li className={`nav-item justify-content-center ${style.links}`}>
+              <a class="nav-link me-4 text-white" aria-current="page" href="">
+                {t("nav.links.our_product")}
+              </a>
+            </li>
+            <li className={`nav-item justify-content-center ${style.links}`}>
+              <a class="nav-link me-4 text-white" href="#">
+                {t("nav.links.our_team")}
+              </a>
+            </li>
+            <li className={`nav-item justify-content-center ${style.links}`}>
+              <a class="nav-link me-4 text-white" aria-current="page" href="">
+                {t("nav.links.contact_us")}
+              </a>
+            </li>
+            <li className={`nav-item dropdown ${style.links}`}>
+              <a
+                className="nav-link dropdown-toggle me-4 text-white"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <LanguageIcon width="28" height="28" />
+              </a>
+              <ul
+                className={`dropdown-menu fondo-menu letras-menu ${
+                  showLanguageMenu ? "show" : ""
+                }`}
+              >
+                {languages.map(({ code, name }) => (
+                  <li key={code}>
                     <button
-                      className={style.btnLng}
-                      onClick={() => i18next.changeLanguage(code)}
+                      className="dropdown-item reveal-text my-2"
+                      onClick={() => handleLanguageChange(code)}
                     >
                       {name}
                     </button>
                   </li>
                 ))}
               </ul>
-            )}
-          </div>
+            </li>
+          </ul>
         </div>
       </div>
     </nav>

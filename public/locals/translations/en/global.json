@@ -20,10 +20,10 @@
         "title": "Where we do it?"
     },
     "our_product": {
-        "title": "Our product"
-    },
+        "title": "Our product"    },
     "team": {
         "our_team": "Our Team",
         "advisors": "Mentors and advisors"
-    }
+    },
+    "with_us": "With us:"
 }

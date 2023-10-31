@@ -1,3 +1,8 @@
+:root{
+  --verde1: #96e071;
+  --verde2: #3e8913;
+  --verde3: #144611;
+}
 *{
   margin: 0;
   padding: 0;

@@ -1,0 +1,58 @@
+.header {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+.header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background: #273f1a; */
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.9;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: auto;
+  height: 100%;
+}
+
+.containerCenter {
+  width: 100%;
+  margin: 0;
+}
+
+.textContent {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 1;
+}
+
+.textContent.full {
+  grid-column: span 12;
+  max-width: 100%;
+  gap: 3rem;
+}
+
+.usColumn {
+  display: flex;
+  flex-direction: column;
+}
+
+.usColumn h2 {
+  font-size: 3rem;
+  color: black;
+}
