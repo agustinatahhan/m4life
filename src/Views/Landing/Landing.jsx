@@ -12,12 +12,12 @@ const Landing = () => {
 
   return (
     <section
-      className={`${style.header} w-100 p-0 d-flex align-items-center justify-content-center`}
+      className={` w-100 p-0 d-flex align-items-center justify-content-center  ${style.header}`}
     >
       <div className={`${style.textContent} ${style.full}`}>
         <h2
           data-aos="zoom-in"
-          className={`text-white fw-bold display-3 text-center mx-3`}
+          className={`text-white fw-bold display-2 text-center mx-3`}
         >
           {t("header.title")}
         </h2>
