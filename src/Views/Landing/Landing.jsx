@@ -11,20 +11,18 @@ const Landing = () => {
   }, []);
 
   return (
-    // <section className={`${style.header} container `} >
-    //   <div className={`${style.grid} ${style.containerCenter}`}>
-    //     <div className={`${style.textContent} ${style.full}`}>
-    //       <h2 data-aos="zoom-in" className={`text-white fw-bold fs-1 text-center`}>{t("header.title")}</h2>
-    //     </div>
-    //   </div>
-    // </section>
-    <section className={`${style.header} w-100 p-0 d-flex align-items-center justify-content-center`}>
-    <div className={`${style.textContent} ${style.full}`}>
-      <h2 data-aos="zoom-in" className={`text-white fw-bold display-3 text-center mx-3`}>
-        {t("header.title")}
-      </h2>
-    </div>
-  </section>
+    <section
+      className={`${style.header} w-100 p-0 d-flex align-items-center justify-content-center`}
+    >
+      <div className={`${style.textContent} ${style.full}`}>
+        <h2
+          data-aos="zoom-in"
+          className={`text-white fw-bold display-3 text-center mx-3`}
+        >
+          {t("header.title")}
+        </h2>
+      </div>
+    </section>
   );
 };
 

@@ -21,7 +21,7 @@
 .bgGreen{
   /* background: linear-gradient(#31572c, #273f1a, #132a13); */
   
-  background: linear-gradient( var(--verde2), var(--verde3));
+  background: linear-gradient(var(--verde2), var(--verde3), var(--verde3));
 
 }
 .carr img {
