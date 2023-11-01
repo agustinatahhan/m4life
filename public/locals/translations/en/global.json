@@ -25,5 +25,8 @@
         "our_team": "Our Team",
         "advisors": "Mentors and advisors"
     },
-    "with_us": "With us:"
+    "with_us": {
+        "title": "With us",
+        "mentors": "Mentors and advisors"
+    }
 }

@@ -8,6 +8,7 @@ nav {
     var(--verde3)
   );
   z-index: 3;
+  height: 8rem;
 }
 
 .logo {

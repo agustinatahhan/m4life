@@ -27,6 +27,10 @@
         "advisors": "Mentores y asesores"
 
     },
-    "with_us": "Con nosotros:"
+    "with_us": {
+        "title": "Junto a nosotros",
+        "mentors": "Mentores y asesores"
+    }
+
 
 }
