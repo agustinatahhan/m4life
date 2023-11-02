@@ -10,3 +10,17 @@
   height: fit-content;
   object-fit: contain;
 }
+
+@media (max-width: 767px) {
+  .imgPartners{
+    width: 6rem;
+    height: 6rem;
+    object-fit: contain;
+  }
+  
+  .imgMentors{
+    width: 7rem;
+    height: fit-content;
+    object-fit: contain;
+  }
+}

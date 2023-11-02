@@ -24,7 +24,7 @@ const AreWithUs = () => {
       <div className="container">
         <div className="row">
           <div className="col-lg-6">
-            <h2 class="display-5 fw-regular my-5">{t("with_us.mentors")}</h2>
+            <h2 class="display-5 fw-regular mt-5 mb-4">{t("with_us.mentors")}</h2>
             <div class="row row-cols-2">
               <div class="col my-3">
                 <img
@@ -32,7 +32,7 @@ const AreWithUs = () => {
                   className={`rounded-circle img-fluid ${style.imgMentors}`}
                   alt="..."
                 />
-                <h4 class="fw-light mt-3">Lino Barañao</h4>
+                <h4 class="fw-light">Lino Barañao</h4>
               </div>
               <div class="col my-3">
                 <img
@@ -40,7 +40,7 @@ const AreWithUs = () => {
                   className={`rounded-circle img-fluid ${style.imgMentors}`}
                   alt="..."
                 />
-                <h4 class="fw-light mt-3">Manuel Espinosa Urgel</h4>
+                <h4 class="fw-light">Manuel Espinosa Urgel</h4>
               </div>
               <div class="col my-3">
                 <img
@@ -48,7 +48,7 @@ const AreWithUs = () => {
                   className={`rounded-circle img-fluid ${style.imgMentors}`}
                   alt="..."
                 />
-                <h4 class="fw-light mt-3">Mark Ramondt</h4>
+                <h4 class="fw-light">Mark Ramondt</h4>
               </div>
               <div class="col my-3">
                 <img
@@ -56,7 +56,7 @@ const AreWithUs = () => {
                   className={`rounded-circle img-fluid ${style.imgMentors}`}
                   alt="..."
                 />
-                <h4 class="fw-light mt-3">Matias Nardi</h4>
+                <h4 class="fw-light">Matias Nardi</h4>
               </div>
             </div>
           </div>
