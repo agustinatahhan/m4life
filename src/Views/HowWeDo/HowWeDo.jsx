@@ -27,7 +27,7 @@ const HowWeDo = () => {
               className="carousel slide"
               data-bs-ride="carousel"
             >
-              <div className={`${style.carr} carousel-inner`}>
+              <div className={`${style.carr} carousel-inner mt-5`}>
                 <div className="carousel-item active" data-bs-interval="10000">
                   <img
                     src={imagen1}
@@ -83,7 +83,7 @@ const HowWeDo = () => {
               </button>
             </div>
           </div>
-          <div className="col-lg-6" data-aos="fade-left">
+          <div className="col-lg-6 mb-5" data-aos="fade-left">
             <h2 className="display-5 fw-regular  mb-4">{t("how_we_do.title")}</h2>
             <p className="fs-5 fw-regular text-center ">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo

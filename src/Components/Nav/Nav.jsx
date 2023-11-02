@@ -52,12 +52,12 @@ const Nav = () => {
   return (
    
     <nav class="navbar navbar-expand-lg bg-tertiary navbar-idea p-3 fixed-top">
-      <div class="container-fluid d-flex mx-5">
+      <div class={`container-fluid d-flex mx-5`}>
         <a class="navbar-brand my-2 fw-bold fs-1" href="/">
           <img className={style.logo} src={logo} alt="logo" />
         </a>
         <button
-          class="navbar-toggler menu"
+          class={`navbar-toggler menu`}
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent"
@@ -68,11 +68,11 @@ const Nav = () => {
           <span class="navbar-toggler-icon"></span>
         </button>
         <div
-          class="collapse navbar-collapse justify-content-evenly"
+          class={`collapse navbar-collapse justify-content-evenly`}
           id="navbarSupportedContent"
           
         >
-          <ul class="navbar-nav mb-2 mb-lg-0 fw-medium fs-4">
+          <ul class={`navbar-nav mb-2 mb-lg-0 fw-medium fs-4`}>
             <li className={`nav-item justify-content-center ${style.links}`}>
               <a class="nav-link me-4 text-white" aria-current="page" href="">
                 {t("nav.links.what_we_do")}
@@ -93,9 +93,9 @@ const Nav = () => {
                 {t("nav.links.contact_us")}
               </a>
             </li>
-            <li className={`nav-item dropdown ${style.links}`}>
+            <li className={`nav-item dropdown ${style.links} `}>
               <a
-                className="nav-link dropdown-toggle me-4 text-white"
+                className={`nav-link dropdown-toggle me-4 text-white `}
                 href="#"
                 role="button"
                 data-bs-toggle="dropdown"

@@ -14,7 +14,7 @@ const OurProduct = () => {
     <section className={`min-vh-100 d-flex align-items-center justify-content-center`}>
       <div className="container">
         <div className="row align-items-center justify-content-center">
-          <div className="col-lg-6 text-center mb-4" data-aos="fade-right">
+          <div className="col-lg-6 text-center mb-4 mt-5" data-aos="fade-right">
             <h2 className="display-5 fw-regular mb-4">
               {t("our_product.title")}
             </h2>
@@ -28,7 +28,7 @@ const OurProduct = () => {
               soluta sint impedit. Velit, asperiores.
             </p>
           </div>
-          <div className="col-lg-6 text-center">
+          <div className="col-lg-6 text-center mb-5">
             <img
             src={lab}
             alt="plant"
