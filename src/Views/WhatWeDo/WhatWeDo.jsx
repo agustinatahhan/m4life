@@ -11,21 +11,9 @@ const WhatWeDo = () => {
     AOS.init();
   }, []);
   return (
-    // <section className={style.header}>
-    //   <div className={`${style.grid} ${style.containerCenter}`}>
-    //     <div className={`${style.textContent} ${style.full}`}>
-    //       <div className={style.grid2}>
-    //         <div>
-    //           <h2>{t("what_we_do.title")}</h2>
-    //         </div>
-    //         <div>
-    //             <img src={plants} alt="plant"/>
-    //         </div>
-    //       </div>
-    //     </div>
-    //   </div>
-    // </section>
-    <section className="bg-light min-vh-100 d-flex align-items-center justify-content-center">
+    <section
+      className={`min-vh-100 d-flex align-items-center justify-content-center`}
+    >
       <div className="container">
         <div className="row align-items-center justify-content-center">
           <div className="col-lg-6 text-center mb-4">

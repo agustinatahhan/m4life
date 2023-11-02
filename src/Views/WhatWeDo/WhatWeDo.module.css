@@ -1,3 +1,7 @@
+.bg{
+  background: var(--n);
+}
+
 .customImg {
   width: 30rem;
   height: 30rem;

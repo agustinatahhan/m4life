@@ -1,7 +1,9 @@
 /* .bgGreen {
   background: linear-gradient(var(--verde2), var(--verde3), var(--verde3));
 } */
-
+.bg{
+  background: var(--n);
+}
 .carr img {
   width: 90%;
   height: 30rem;

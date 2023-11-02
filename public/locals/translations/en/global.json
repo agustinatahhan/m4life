@@ -28,5 +28,12 @@
     "with_us": {
         "title": "With us",
         "mentors": "Mentors and advisors"
+    },
+    "contact": {
+        "title": "Contact us",
+        "name": "Full name",
+        "email": "Email",
+        "message": "Message",
+        "send": "Send"
     }
 }

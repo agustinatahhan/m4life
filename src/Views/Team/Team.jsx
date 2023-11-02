@@ -12,7 +12,7 @@ const Team = () => {
   }, []);
   return (
     <section
-      className={`min-vh-100 d-flex align-items-center justify-content-center `}
+      className={`min-vh-100 d-flex align-items-center justify-content-center ${style.bg}`}
     >
       <div class="container">
         <div>

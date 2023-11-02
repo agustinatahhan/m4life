@@ -19,7 +19,7 @@ const AreWithUs = () => {
   }, []);
   return (
     <section
-      className={`min-vh-100 bg-light d-flex align-items-center justify-content-center`}
+      className={`min-vh-100 d-flex align-items-center justify-content-center ${style.bg}`}
     >
       <div className="container">
         <div className="row">
@@ -27,36 +27,36 @@ const AreWithUs = () => {
             <h2 class="display-5 fw-regular my-5">{t("with_us.mentors")}</h2>
             <div class="row row-cols-2">
               <div class="col my-3">
-                <h4 class="fw-light mb-3">Lino Barañao</h4>
                 <img
                   src={avatar}
                   className={`rounded-circle img-fluid ${style.imgMentors}`}
                   alt="..."
                 />
+                <h4 class="fw-light mt-3">Lino Barañao</h4>
               </div>
               <div class="col my-3">
-                <h4 class="fw-light mb-3">Manuel Espinosa Urgel</h4>
                 <img
                   src={avatar}
                   className={`rounded-circle img-fluid ${style.imgMentors}`}
                   alt="..."
                 />
+                <h4 class="fw-light mt-3">Manuel Espinosa Urgel</h4>
               </div>
               <div class="col my-3">
-                <h4 class="fw-light mb-3">Mark Ramondt</h4>
                 <img
                   src={avatar}
                   className={`rounded-circle img-fluid ${style.imgMentors}`}
                   alt="..."
                 />
+                <h4 class="fw-light mt-3">Mark Ramondt</h4>
               </div>
               <div class="col my-3">
-                <h4 class="fw-light mb-3">Matias Nardi</h4>
                 <img
                   src={avatar}
                   className={`rounded-circle img-fluid ${style.imgMentors}`}
                   alt="..."
                 />
+                <h4 class="fw-light mt-3">Matias Nardi</h4>
               </div>
             </div>
           </div>

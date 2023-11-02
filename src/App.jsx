@@ -1,23 +1,17 @@
 import "./App.css";
+import { Route, Routes } from "react-router-dom";
 import Nav from "./Components/Nav/Nav";
-import HowWeDo from "./Views/HowWeDo/HowWeDo";
-import Landing from "./Views/Landing/Landing";
-import OurProduct from "./Views/OurProduct/OurProduct";
-import AreWithUs from "./Views/AreWithUs/AreWithUs";
-import Team from "./Views/Team/Team";
-import WhatWeDo from "./Views/WhatWeDo/WhatWeDo";
-import WhereWeDo from "./Views/WhereWeDo/WhereWeDo";
+import Home from "./Views/Home/Home";
+import ContactUs from "./Views/ContactUs/ContactUs";
+// import WhereWeDo from "./Views/WhereWeDo/WhereWeDo";
 function App() {
   return (
     <>
       <Nav />
-      <Landing />
-      <WhatWeDo/>
-      <HowWeDo/>
-      {/* <WhereWeDo/> */}
-      <OurProduct/>
-      <Team />
-      <AreWithUs/>
+      <Routes>
+        <Route path="/" element={<Home/>}/>
+        <Route path="/contact" element={<ContactUs/>}/>
+      </Routes>
     </>
   );
 }

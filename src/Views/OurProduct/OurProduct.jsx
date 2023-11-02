@@ -11,14 +11,14 @@ const OurProduct = () => {
     AOS.init();
   }, []);
   return (
-    <section className="bg-light min-vh-100 d-flex align-items-center justify-content-center">
+    <section className={`min-vh-100 d-flex align-items-center justify-content-center`}>
       <div className="container">
         <div className="row align-items-center justify-content-center">
           <div className="col-lg-6 text-center mb-4" data-aos="fade-right">
             <h2 className="display-5 fw-regular mb-4">
               {t("our_product.title")}
             </h2>
-            <p className="fs-5 fw-regular text-start">
+            <p className="fs-5 fw-regular text-center">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Obcaecati eius odit autem id ipsum molestias, minima atque
               deserunt ipsam omnis delectus error fuga, repellat est placeat

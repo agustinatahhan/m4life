@@ -3,10 +3,20 @@ nav {
   background: linear-gradient(
     to right,
     #fff,
-    var(--verde1),
+    /* var(--verde1),
     var(--verde2),
-    var(--verde3)
+    var(--verde3) */
+    var(--v),
+    var(--v2),
+    var(--v3)
   );
+  /* background: linear-gradient(
+    to right,
+    #fff,
+    #53ac59,
+    #3b8952,
+    #0f684b
+  ); */
   z-index: 3;
   height: 8rem;
 }

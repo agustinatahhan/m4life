@@ -89,7 +89,7 @@ const Nav = () => {
               </a>
             </li>
             <li className={`nav-item justify-content-center ${style.links}`}>
-              <a class="nav-link me-4 text-white" aria-current="page" href="">
+              <a class="nav-link me-4 text-white" aria-current="page" href="/contact">
                 {t("nav.links.contact_us")}
               </a>
             </li>

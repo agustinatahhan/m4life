@@ -17,9 +17,8 @@ const HowWeDo = () => {
   }, []);
 
   return (
-    <section 
-      className={`min-vh-100 d-flex align-items-center justify-content-center `}
-    >
+    <section className={`min-vh-100 d-flex align-items-center justify-content-center ${style.bg}`}>
+
       <div className="container">
         <div className="row align-items-center justify-content-center">
           <div className="col-lg-6 text-center mb-4">
@@ -86,7 +85,7 @@ const HowWeDo = () => {
           </div>
           <div className="col-lg-6" data-aos="fade-left">
             <h2 className="display-5 fw-regular  mb-4">{t("how_we_do.title")}</h2>
-            <p className="fs-5 fw-regular text-start ">
+            <p className="fs-5 fw-regular text-center ">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo
               accusantium exercitationem dolorem impedit, quam praesentium velit
               laboriosam ea culpa. Voluptas eveniet amet laboriosam similique
