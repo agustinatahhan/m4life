@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className={`py-3 ${style.bgFooter}`}>
       <div className="container">
         <div className="row align-items-center justify-content-between my-3">
-          <div className="col-md-4 mt-4">
+          <div className="col-md-4 ">
             <a href="/">
               {" "}
               <img
@@ -19,7 +19,7 @@ const Footer = () => {
               Produced by DKZ Studio © 2023 Todos los derechos reservados
             </p>
           </div>
-          <div className="col-md-4 text-right">
+          <div className="col-md-4 text-right mt-4">
             <a
               href="https://www.linkedin.com/company/m4lifeok/"
               className={`social-icon ${style.iconFoot}`}
