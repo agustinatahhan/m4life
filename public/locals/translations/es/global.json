@@ -32,7 +32,8 @@
         "mentors": "Mentores y asesores"
     },
     "contact": {
-        "title": "Contáctate con nosotros",
+        "title": "Contactate con nosotros",
+        "description": "Si estás interesado en saber más sobre nosotros y deseas ponerte en contacto con nuestro equipo, no dudes en comunicarte, y te responderemos pronto.",
         "name": "Nombre completo",
         "email": "Email",
         "message": "Mensaje",

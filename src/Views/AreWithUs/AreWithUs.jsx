@@ -24,42 +24,10 @@ const AreWithUs = () => {
       <div className="container">
         <div className="row">
           <div className="col-lg-6">
-            <h2 class="display-5 fw-regular mt-5 mb-4">
+            <h2 class="display-5 fw-regular my-5">
               {t("with_us.mentors")}
             </h2>
             <div class="row row-cols-2">
-              {/* <div class="col my-3">
-                <img
-                  src={avatar}
-                  className={`rounded-circle img-fluid ${style.imgMentors}`}
-                  alt="..."
-                />
-                <h4 class="fw-light">Lino Barañao</h4>
-              </div>
-              <div class="col my-3">
-                <img
-                  src={avatar}
-                  className={`rounded-circle img-fluid ${style.imgMentors}`}
-                  alt="..."
-                />
-                <h4 class="fw-light">Manuel Espinosa Urgel</h4>
-              </div>
-              <div class="col my-3">
-                <img
-                  src={avatar}
-                  className={`rounded-circle img-fluid ${style.imgMentors}`}
-                  alt="..."
-                />
-                <h4 class="fw-light">Mark Ramondt</h4>
-              </div>
-              <div class="col my-3">
-                <img
-                  src={avatar}
-                  className={`rounded-circle img-fluid ${style.imgMentors}`}
-                  alt="..."
-                />
-                <h4 class="fw-light">Matias Nardi</h4>
-              </div> */}
               <div className={style.card}>
                 <div className={style.profileImage}>
                   <img src={avatar} alt="" />
@@ -74,7 +42,9 @@ const AreWithUs = () => {
                   <img src={avatar} alt="" />
                 </div>
                 <div className={style.textContainer}>
-                  <p className={`fw-regular text-center`}>Manuel Espinosa Urgel</p>
+                  <p className={`fw-regular text-center`}>
+                    Manuel Espinosa Urgel
+                  </p>
                 </div>
               </div>
 
@@ -95,7 +65,6 @@ const AreWithUs = () => {
                   <p className={`fw-regular text-center`}>Matias Nardi</p>
                 </div>
               </div>
-
             </div>
           </div>
           <div className="col-lg-6">

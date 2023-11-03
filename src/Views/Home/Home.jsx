@@ -4,7 +4,7 @@ import HowWeDo from "../HowWeDo/HowWeDo";
 import OurProduct from "../OurProduct/OurProduct";
 import Team from "../Team/Team";
 import AreWithUs from "../AreWithUs/AreWithUs";
-import Footer from "../../Components/Footer/Footer";
+// import Footer from "../../Components/Footer/Footer";
 
 const Home = () => {
   return (
@@ -16,7 +16,7 @@ const Home = () => {
       <OurProduct/>
       <Team />
       <AreWithUs/>
-      <Footer/>
+      {/* <Footer/> */}
     </>
   )
 }

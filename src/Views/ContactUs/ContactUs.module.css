@@ -1,5 +1,8 @@
+.formContainer{
+    background: linear-gradient(to top, var(--v2), var(--v3));
+}
+
 .form{
-    width: 50%;
     background-color: var(--v4);
 }
 

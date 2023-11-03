@@ -1,5 +1,5 @@
-.bg{
-  background: var(--n);
+.bg {
+  background: linear-gradient(to top, var(--v2), var(--v3));
 }
 
 .grid {

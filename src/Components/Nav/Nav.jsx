@@ -74,17 +74,17 @@ const Nav = () => {
         >
           <ul class={`navbar-nav mb-2 mb-lg-0 fw-medium fs-4`}>
             <li className={`nav-item justify-content-center ${style.links}`}>
-              <a class="nav-link me-4 text-white" aria-current="page" href="">
+              <a class="nav-link me-4 text-white" aria-current="page" href="#Whatwedo">
                 {t("nav.links.what_we_do")}
               </a>
             </li>
             <li className={`nav-item justify-content-center ${style.links}`}>
-              <a class="nav-link me-4 text-white" aria-current="page" href="">
+              <a class="nav-link me-4 text-white" aria-current="page" href="#ourproduct">
                 {t("nav.links.our_product")}
               </a>
             </li>
             <li className={`nav-item justify-content-center ${style.links}`}>
-              <a class="nav-link me-4 text-white" href="#">
+              <a class="nav-link me-4 text-white" href="#team">
                 {t("nav.links.our_team")}
               </a>
             </li>

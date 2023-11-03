@@ -12,12 +12,13 @@ const WhatWeDo = () => {
   }, []);
   return (
     <section
-      className={`min-vh-100 d-flex align-items-center justify-content-center`}
+      className={`min-vh-100 d-flex align-items-center justify-content-center ${style.bg}`}
+      id="Whatwedo"
     >
       <div className="container">
         <div className="row align-items-center justify-content-center">
           <div className="col-lg-6 text-center mb-4">
-            <h2 className="display-4 fw-regular mb-3" data-aos="fade-right">
+            <h2 className="display-4 fw-medium mb-3 text-white" data-aos="fade-right">
               {t("what_we_do.title")}
             </h2>
           </div>

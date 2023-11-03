@@ -31,6 +31,7 @@
     },
     "contact": {
         "title": "Contact us",
+        "description": "If you're interested in learning more about us and want to connect with our team, feel free to reach out, and we'll get back to you soon.",
         "name": "Full name",
         "email": "Email",
         "message": "Message",

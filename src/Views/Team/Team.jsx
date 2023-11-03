@@ -12,11 +12,12 @@ const Team = () => {
   }, []);
   return (
     <section
+    id="team"
       className={`min-vh-100 d-flex align-items-center justify-content-center ${style.bg}`}
     >
       <div class="container">
         <div>
-          <h2 className="display-5 fw-regular my-5">{t("team.our_team")}</h2>
+          <h2 className="display-3 fw-bold my-5">{t("team.our_team")}</h2>
           <div
             class="row row-cols-4  align-items-center justify-content-center column-gap-5 row-gap-3 mt-5 mb-5"
             data-aos="fade-down"

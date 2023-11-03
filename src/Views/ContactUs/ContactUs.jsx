@@ -14,40 +14,42 @@ const ContactUs = () => {
     <section
       className={`min-vh-100 d-flex align-items-center justify-content-center ${style.formContainer}`}
     >
-      <div className={`container p-5 rounded ${style.form}`}>
-        <h3 className="fw-light fs-1 mb-4">{t("contact.title")}</h3>
-        <div class="mb-3">
-          <input
-            type="name"
-            class="form-control"
-            id="exampleFormControlInput1"
-            placeholder={t("contact.name")}
-            required
-          />
+      <div className={`container w-50 p-4 rounded mt-5`}>
+        <div className={`mb-4 ${style.contentWrapper}`}>
+          <h3 className="fw-bold display-4 text-start text-white mt-5">{t("contact.title")}</h3>
+          <p className="text-start fs-5 text-white mt-3">{t("contact.description")}</p>
         </div>
-        <div class="mb-3">
-          <input
-            type="email"
-            class="form-control"
-            id="exampleFormControlInput1"
-            placeholder={t("contact.email")}
-            required
-          />
-        </div>
-        <div class="mb-3">
-          <textarea
-            class="form-control"
-            id="exampleFormControlTextarea1"
-            rows="3"
-            placeholder={t("contact.message")}
-            required
-          />
-        </div>
-        <div class="d-grid gap-2 col-6 mx-auto">
-          <button class="btn btn-dark" type="button">
-            {t("contact.send")}
-          </button>
-        </div>
+        <form className={`p-4 rounded mt-5 ${style.form}`}>
+          <div className="mb-3">
+            <input
+              type="text"
+              className="form-control"
+              placeholder={t("contact.name")}
+              required
+            />
+          </div>
+          <div className="mb-3">
+            <input
+              type="email"
+              className="form-control"
+              placeholder={t("contact.email")}
+              required
+            />
+          </div>
+          <div className="mb-3">
+            <textarea
+              className="form-control"
+              rows="3"
+              placeholder={t("contact.message")}
+              required
+            />
+          </div>
+          <div className="d-grid gap-2 col-6 mx-auto">
+            <button className="btn btn-light" type="submit">
+              {t("contact.send")}
+            </button>
+          </div>
+        </form>
       </div>
     </section>
   );

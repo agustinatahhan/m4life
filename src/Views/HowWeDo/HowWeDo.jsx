@@ -84,15 +84,22 @@ const HowWeDo = () => {
             </div>
           </div>
           <div className="col-lg-6 mb-5" data-aos="fade-left">
-            <h2 className="display-5 fw-regular  mb-4">{t("how_we_do.title")}</h2>
+            <h2 className="display-3 fw-bold mb-4">{t("how_we_do.title")}</h2>
             <p className="fs-5 fw-regular text-center ">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo
-              accusantium exercitationem dolorem impedit, quam praesentium velit
-              laboriosam ea culpa. Voluptas eveniet amet laboriosam similique
-              nihil non voluptate eius dolores omnis. Lorem ipsum dolor sit amet
-              consectetur adipisicing elit. Voluptate, ipsum cum molestias quis
-              sunt excepturi explicabo nobis et ex earum vitae unde! Accusamus
-              ab dolor impedit consectetur voluptatibus labore aliquam!
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Obcaecati eius odit autem id ipsum molestias, minima atque
+              deserunt ipsam omnis delectus error fuga, repellat est placeat
+              nostrum vel optio facilis! Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Deleniti esse eos totam. Dolorem nostrum qui
+              saepe, obcaecati autem at, dolorum omnis libero atque iste amet
+              soluta sint impedit. Velit, asperiores. Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Iure, possimus explicabo architecto
+              fugiat numquam amet alias! Consequuntur id placeat quam quisquam
+              hic soluta, ex ipsam, porro, voluptas reiciendis sit quia. Lorem
+              ipsum dolor sit amet consectetur, adipisicing elit. Eligendi
+              consequuntur expedita vero corporis sed rerum velit autem
+              distinctio rem, dicta maiores, cumque ut deleniti adipisci? A fuga
+              accusantium et repellendus? 
             </p>
           </div>
         </div>
