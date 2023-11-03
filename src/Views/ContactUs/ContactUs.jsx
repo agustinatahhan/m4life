@@ -14,8 +14,8 @@ const ContactUs = () => {
     <section
       className={`min-vh-100 d-flex align-items-center justify-content-center ${style.formContainer}`}
     >
-      <div className={`container w-50 p-4 rounded mt-5`}>
-        <div className={`mb-4 ${style.contentWrapper}`}>
+      <div className={`container p-4 rounded mt-5 ${style.contentWidth}`}>
+        <div className={`mb-4`}>
           <h3 className="fw-bold display-4 text-start text-white mt-5">{t("contact.title")}</h3>
           <p className="text-start fs-5 text-white mt-3">{t("contact.description")}</p>
         </div>

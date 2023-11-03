@@ -2,12 +2,16 @@
     background: linear-gradient(to top, var(--v2), var(--v3));
 }
 
+.contentWidth{
+    width: 50%;
+}
+
 .form{
     background-color: var(--v4);
 }
 
 @media (max-width: 767px) {
-    .form{
+    .contentWidth{
         width: 90%;
     }
 }

@@ -5,8 +5,7 @@ nav {
     #fff,
     /* var(--verde1),
     var(--verde2),
-    var(--verde3) */
-    var(--v),
+    var(--verde3) */ var(--v),
     var(--v2),
     var(--v3)
   );
@@ -28,7 +27,6 @@ nav {
   align-items: center;
   justify-content: center;
 }
-
 
 .links a {
   color: white;
@@ -163,21 +161,9 @@ input.checkIcon:checked + label.iconMenu {
 }
 
 @media (max-width: 1023px) {
-  .enlaces {
-    position: relative;
-    display: none;
-    flex-direction: column;
-    gap: 10px;
-    background-color: #f1f1f1;
-    padding: 10px;
-    border-radius: 4px;
-    position: absolute;
-    top: 100%;
-    right: 3%;
-    width: 150px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    z-index: 1;
-  }
+  /* .links {
+    background: linear-gradient(to right, #fff, var(--v), var(--v2), var(--v3));
+  } */
 
   .logo {
     width: 100px;

@@ -6,6 +6,7 @@ import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import logo from "../../assets/Img/logom4life.png";
+import { NavLink } from "react-router-dom";
 
 const languages = [
   {
@@ -72,26 +73,26 @@ const Nav = () => {
           id="navbarSupportedContent"
           
         >
-          <ul class={`navbar-nav mb-2 mb-lg-0 fw-medium fs-4`}>
+          <ul class={`navbar-nav mb-2 mb-lg-0 fw-medium fs-4}`}>
             <li className={`nav-item justify-content-center ${style.links}`}>
-              <a class="nav-link me-4 text-white" aria-current="page" href="#Whatwedo">
+              <a class="nav-link me-4 text-white" aria-current="page" href="/#Whatwedo">
                 {t("nav.links.what_we_do")}
               </a>
             </li>
             <li className={`nav-item justify-content-center ${style.links}`}>
-              <a class="nav-link me-4 text-white" aria-current="page" href="#ourproduct">
+              <a class="nav-link me-4 text-white" aria-current="page" href="/#ourproduct">
                 {t("nav.links.our_product")}
               </a>
             </li>
             <li className={`nav-item justify-content-center ${style.links}`}>
-              <a class="nav-link me-4 text-white" href="#team">
+              <a class="nav-link me-4 text-white" href="/#team">
                 {t("nav.links.our_team")}
               </a>
             </li>
             <li className={`nav-item justify-content-center ${style.links}`}>
-              <a class="nav-link me-4 text-white" aria-current="page" href="/contact">
+              <NavLink class="nav-link me-4 text-white" aria-current="page" to="/contact">
                 {t("nav.links.contact_us")}
-              </a>
+              </NavLink>
             </li>
             <li className={`nav-item dropdown ${style.links} `}>
               <a
