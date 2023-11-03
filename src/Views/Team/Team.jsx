@@ -18,10 +18,10 @@ const Team = () => {
         <div>
           <h2 className="display-5 fw-regular my-5">{t("team.our_team")}</h2>
           <div
-            class="row row-cols-4  align-items-center justify-content-center column-gap-5 row-gap-3 mt-5"
+            class="row row-cols-4  align-items-center justify-content-center column-gap-5 row-gap-3 mt-5 mb-5"
             data-aos="fade-down"
           >
-            <div className={style.card}>
+            <div className={`mb-3 ${style.card}`}>
               <img src={avatar} alt="avatar" />
               <div className={style.cardContent}>
                 <p className={style.cardTitle}>Paula Vincent</p>
@@ -61,7 +61,7 @@ const Team = () => {
               </div>
             </div>
 
-            <div className={style.card}>
+            <div className={`mb-3 ${style.card}`}>
               <img src={avatar} alt="avatar" />
               <div className={style.cardContent}>
                 <p className={style.cardTitle}>Sandra Durman</p>
@@ -101,7 +101,7 @@ const Team = () => {
               </div>
             </div>
 
-            <div className={style.card}>
+            <div className={`mb-3 ${style.card}`}>
               <img src={avatar} alt="avatar" />
               <div className={style.cardContent}>
                 <p className={style.cardTitle}>Ricardo de Cristobal</p>
@@ -141,7 +141,7 @@ const Team = () => {
               </div>
             </div>
 
-            <div className={style.card}>
+            <div className={`${style.card}`}>
               <img src={avatar} alt="avatar" />
               <div className={style.cardContent}>
                 <p className={style.cardTitle}>Conrado Adler</p>

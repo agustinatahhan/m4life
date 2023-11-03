@@ -1,0 +1,22 @@
+.bgFooter{
+  background-color: #f1f1eb;
+}
+
+.logoFooter {
+  width: 7.5rem;
+  height: 4.5rem;
+}
+
+.iconFoot {
+  color: #2e5737;
+
+  transition: color 0.3s ease;
+  display: inline-block;
+}
+
+.iconFoot:hover {
+  color: #5d9950;
+
+  transform: scale(1.2);
+  font-weight: 700;
+}
