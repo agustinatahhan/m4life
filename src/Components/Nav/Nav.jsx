@@ -52,8 +52,7 @@ const Nav = () => {
   };
   return (
    
-    <nav class="navbar navbar-expand-lg bg-tertiary navbar-idea p-3 fixed-top">
-      <div class={`container-fluid d-flex mx-5`}>
+<nav className={`navbar navbar-expand-lg bg-tertiary p-4 fixed-top ${style.navbarIdea}`}>      <div class={`container-fluid d-flex mx-5`}>
         <a class="navbar-brand my-2 fw-bold fs-1" href="/">
           <img className={style.logo} src={logo} alt="logo" />
         </a>

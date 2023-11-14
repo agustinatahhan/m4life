@@ -1,5 +1,4 @@
-nav {
-  position: fixed;
+.navbarIdea{
   background: linear-gradient(
     to right,
     #fff,
@@ -16,8 +15,6 @@ nav {
     #3b8952,
     #0f684b
   ); */
-  z-index: 3;
-  height: 8rem;
 }
 
 .logo {
