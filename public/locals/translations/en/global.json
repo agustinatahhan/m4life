@@ -23,6 +23,8 @@
         "title": "Our product"    },
     "team": {
         "our_team": "Our Team",
+        "science": "Science and Technology",
+        "business": "Product Development and business",
         "advisors": "Mentors and advisors"
     },
     "with_us": {

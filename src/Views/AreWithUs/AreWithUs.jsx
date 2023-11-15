@@ -43,7 +43,7 @@ const AreWithUs = () => {
                 </div>
                 <div className={style.textContainer}>
                   <p className={`fw-regular text-center`}>
-                    Manuel Espinosa Urgel
+                    Carlos Becco
                   </p>
                 </div>
               </div>
@@ -53,7 +53,7 @@ const AreWithUs = () => {
                   <img src={avatar} alt="" />
                 </div>
                 <div className={style.textContainer}>
-                  <p className={`fw-regular text-center`}>Mark Ramondt</p>
+                  <p className={`fw-regular text-center`}>Nicolás Adur</p>
                 </div>
               </div>
 
@@ -62,7 +62,7 @@ const AreWithUs = () => {
                   <img src={avatar} alt="" />
                 </div>
                 <div className={style.textContainer}>
-                  <p className={`fw-regular text-center`}>Matias Nardi</p>
+                  <p className={`fw-regular text-center`}>Cesar Arias</p>
                 </div>
               </div>
             </div>
