@@ -11,9 +11,23 @@
   border-radius: 10px;
 }
 
+.im{
+  width: 5rem;
+  height: 5rem;
+  margin: 1rem 0;
+}
 @media (max-width: 767px) {
   .carr img {
     height: 25rem;
     margin-bottom: 1rem;
+  }
+  .im{
+    width: 2rem;
+    height: 2rem;
+    margin: 1rem 0;
+  }
+
+  .txt{
+    font-size: 12px;
   }
 }

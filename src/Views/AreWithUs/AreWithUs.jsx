@@ -9,7 +9,11 @@ import agrality from "../../assets/Img/agrality.png";
 import ee from "../../assets/Img/ee.png";
 import rizobacter from "../../assets/Img/rizobacter.png";
 import sf500 from "../../assets/Img/SF500.png";
-import avatar from "../../assets/Img/avatar.png";
+// import avatar from "../../assets/Img/avatar.png";
+import carlos from "../../assets/Img/carlos.jpg";
+import cesar from "../../assets/Img/cesar.png";
+import lino from "../../assets/Img/lino.png";
+import nicolas from "../../assets/Img/nicolas.png";
 
 const AreWithUs = () => {
   const { t } = useTranslation("global");
@@ -24,45 +28,54 @@ const AreWithUs = () => {
       <div className="container">
         <div className="row">
           <div className="col-lg-6">
-            <h2 class="display-5 fw-regular my-5">
-              {t("with_us.mentors")}
-            </h2>
+            <h2 class="display-5 fw-regular my-5">{t("with_us.mentors")}</h2>
             <div class="row row-cols-2">
               <div className={style.card}>
                 <div className={style.profileImage}>
-                  <img src={avatar} alt="" />
+                  <img src={lino} alt="" />
                 </div>
                 <div className={style.textContainer}>
-                  <p className={`fw-regular text-center`}>Lino Barañao</p>
-                </div>
-              </div>
-
-              <div className={style.card}>
-                <div className={style.profileImage}>
-                  <img src={avatar} alt="" />
-                </div>
-                <div className={style.textContainer}>
-                  <p className={`fw-regular text-center`}>
-                    Carlos Becco
+                  <p className={`fw-regular fs-5 text-center`}>Lino Barañao</p>
+                  <p className={`fw-light text-center`}>
+                    Former Science Minister of Argentina
                   </p>
                 </div>
               </div>
 
               <div className={style.card}>
                 <div className={style.profileImage}>
-                  <img src={avatar} alt="" />
+                  <img src={carlos} alt="" />
                 </div>
                 <div className={style.textContainer}>
-                  <p className={`fw-regular text-center`}>Nicolás Adur</p>
+                  <p className={`fw-regular fs-5 text-center`}>Carlos Becco</p>
+                  <p className={`fw-light text-center`}>
+                    Former CEO Indigo Argentina Comm. Head Syngenta AR
+                  </p>
                 </div>
               </div>
 
               <div className={style.card}>
                 <div className={style.profileImage}>
-                  <img src={avatar} alt="" />
+                  <img src={nicolas} alt="" />
                 </div>
                 <div className={style.textContainer}>
-                  <p className={`fw-regular text-center`}>Cesar Arias</p>
+                  <p className={`fw-regular fs-5 text-center`}>Nicolás Adur</p>
+                  <p className={`fw-light text-center`}>
+                    Former Global Sales & Comm. Manager Schlumberger
+                  </p>
+                </div>
+              </div>
+
+              <div className={style.card}>
+                <div className={style.profileImage}>
+                  <img src={cesar} alt="" />
+                </div>
+                <div className={style.textContainer}>
+                  <p className={`fw-regular fs-5 text-center`}>Cesar Arias</p>
+                  <p className={`fw-light text-center`}>
+                    Former Director of Public Credit and National Treasury of
+                    Colombia
+                  </p>
                 </div>
               </div>
             </div>

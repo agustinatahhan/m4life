@@ -26,19 +26,19 @@
 .profileImage img{
   background: linear-gradient(to right,rgb(54, 54, 54),rgb(32, 32, 32));
   margin-top: 20px;
-  width: 120px;
-  height: 120px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
   box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.329);
 }
 
 .textContainer {
   width: 100%;
-  text-align: left;
-  padding: 20px;
+  text-align: center;
+  padding: 10px;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  /* gap: 10px; */
   color: black;
 }
 

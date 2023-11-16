@@ -14,7 +14,13 @@
         "title": "Promovemos el crecimiento de cultivos en entornos extremos y bajo estrés abiótico."
     },
     "how_we_do":{
-        "title": "Cómo lo hacemos?"
+        "title": "Cómo lo hacemos?",
+        "description": "Transportamos microorganismos hacia el suelo en semillas, para potenciar el crecimiento de las plantas y restablecer la biodiversidad del suelo.",
+        "source": "Fuente: sequía, calor, salinidad del suelo",
+        "microbes": "Selección de microorganismos",
+        "training": "Entrenamiento para resistir al estrés y mejorar afinidad a las plantas",
+        "formulation": "La formula mejora la conservación y la supervivencia de las semillas",
+        "use": "Modo de uso: recubrimiento de semillas"
     },
     "where_we_do":{
         "title": "Dónde lo hacemos?"

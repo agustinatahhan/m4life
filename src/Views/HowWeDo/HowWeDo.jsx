@@ -8,6 +8,12 @@ import imagen1 from "../../assets/Img/soja.jpeg";
 import imagen2 from "../../assets/Img/test.jpeg";
 import imagen3 from "../../assets/Img/lab1.jpeg";
 import imagen4 from "../../assets/Img/lab2.jpeg";
+import i1 from "../../assets/Img/1.png";
+import i2 from "../../assets/Img/2.png";
+import i3 from "../../assets/Img/3.png";
+import i4 from "../../assets/Img/4.png";
+import i5 from "../../assets/Img/5.png";
+import flecha from "../../assets/Img/flecha.png";
 
 const HowWeDo = () => {
   const { t } = useTranslation("global");
@@ -17,8 +23,9 @@ const HowWeDo = () => {
   }, []);
 
   return (
-    <section className={`min-vh-100 d-flex align-items-center justify-content-center ${style.bg}`}>
-
+    <section
+      className={`min-vh-100 d-flex align-items-center justify-content-center ${style.bg}`}
+    >
       <div className="container">
         <div className="row align-items-center justify-content-center">
           <div className="col-lg-6 text-center mb-4">
@@ -85,22 +92,36 @@ const HowWeDo = () => {
           </div>
           <div className="col-lg-6 mb-5" data-aos="fade-left">
             <h2 className="display-3 fw-bold mb-4">{t("how_we_do.title")}</h2>
-            <p className="fs-5 fw-regular text-center ">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Obcaecati eius odit autem id ipsum molestias, minima atque
-              deserunt ipsam omnis delectus error fuga, repellat est placeat
-              nostrum vel optio facilis! Lorem ipsum dolor sit amet consectetur
-              adipisicing elit. Deleniti esse eos totam. Dolorem nostrum qui
-              saepe, obcaecati autem at, dolorum omnis libero atque iste amet
-              soluta sint impedit. Velit, asperiores. Lorem ipsum dolor sit amet
-              consectetur adipisicing elit. Iure, possimus explicabo architecto
-              fugiat numquam amet alias! Consequuntur id placeat quam quisquam
-              hic soluta, ex ipsam, porro, voluptas reiciendis sit quia. Lorem
-              ipsum dolor sit amet consectetur, adipisicing elit. Eligendi
-              consequuntur expedita vero corporis sed rerum velit autem
-              distinctio rem, dicta maiores, cumque ut deleniti adipisci? A fuga
-              accusantium et repellendus? 
+            <p className="fs-5 fw-regular text-center">
+              {t("how_we_do.description")}
             </p>
+            <div class="container text-center mt-5">
+              <div class="d-flex row">
+                <div class="col">
+                  <img className={`${style.im}`} src={i1} alt="img" />
+                  <p className={style.txt}>{t("how_we_do.source")}</p>
+                </div>
+                <div class="col">
+                  <p className={style.txt}>{t("how_we_do.microbes")}</p>
+
+                  <img className={`${style.im}`} src={i2} alt="img" />
+                </div>
+                <div class="col">
+                  <img className={`${style.im}`} src={i3} alt="img" />
+                  <p className={style.txt}>{t("how_we_do.training")}</p>
+                </div>
+                <div class="col">
+                  <p className={style.txt}>{t("how_we_do.formulation")}</p>
+
+                  <img className={`${style.im}`} src={i4} alt="img" />
+                </div>
+                <div class="col">
+                  <img className={`${style.im}`} src={i5} alt="img" />
+                  <p className={style.txt}>{t("how_we_do.use")}</p>
+                </div>
+              </div>
+            </div>
+            <img className="w-100" src={flecha} alt="flecha"/>
           </div>
         </div>
       </div>

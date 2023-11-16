@@ -4,6 +4,12 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
+import conrado from "../../assets/Img/conrado.jpg";
+import sandra from "../../assets/Img/sandra.png";
+import paula from "../../assets/Img/paula.png";
+import federico from "../../assets/Img/federico.jpg";
+import ricardo from "../../assets/Img/ricardo.png";
+
 const Team = () => {
   const { t } = useTranslation("global");
 
@@ -23,7 +29,7 @@ const Team = () => {
           data-aos="fade-down"
         >
           <div className={`mb-3 ${style.card}`}>
-            <img src={avatar} alt="avatar" />
+            <img src={paula} alt="avatar" />
             <div className={style.cardContent}>
               <p className={style.cardTitle}>Paula Vincent</p>
               <p className={style.cardDescription}>
@@ -63,7 +69,7 @@ const Team = () => {
           </div>
 
           <div className={`mb-3 ${style.card}`}>
-            <img src={avatar} alt="avatar" />
+            <img src={conrado} alt="avatar" />
             <div className={style.cardContent}>
               <p className={style.cardTitle}>Conrado Adler</p>
               <p className={style.cardDescription}>
@@ -103,7 +109,7 @@ const Team = () => {
           </div>
 
           <div className={`mb-3 ${style.card}`}>
-            <img src={avatar} alt="avatar" />
+            <img src={ricardo} alt="avatar" />
             <div className={style.cardContent}>
               <p className={style.cardTitle}>Ricardo de Cristobal</p>
               <p className={style.cardDescription}>
@@ -149,7 +155,7 @@ const Team = () => {
           data-aos="fade-down"
         >
           <div className={`${style.card}`}>
-            <img src={avatar} alt="avatar" />
+            <img src={sandra} alt="avatar" />
             <div className={style.cardContent}>
               <p className={style.cardTitle}>Sandra Durman</p>
               <p className={style.cardDescription}>
@@ -189,7 +195,7 @@ const Team = () => {
           </div>
 
           <div className={`${style.card}`}>
-            <img src={avatar} alt="avatar" />
+            <img src={federico} alt="avatar" />
             <div className={style.cardContent}>
               <p className={style.cardTitle}>Federico Wajnerman</p>
               <p className={style.cardDescription}>

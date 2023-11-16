@@ -14,7 +14,13 @@
         "title": "We promote crop growth in extreme environments and under abiotic stress."
     },
     "how_we_do":{
-        "title": "How we do it?"
+        "title": "How we do it?",
+        "description": "We carry microbes towards the soil on seeds, to boost plant growth and recover soil biodiversity",
+        "source": "Source: drought, hot, soil salinity",
+        "microbes": "Microbes selection",
+        "training": "Training to stress resistant and plant affinity",
+        "formulation": "Formulation improves shelf-life, survival on seed",
+        "use": "Mode of use: seed coating"
     },
     "where_we_do":{
         "title": "Where we do it?"
