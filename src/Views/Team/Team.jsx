@@ -9,6 +9,7 @@ import sandra from "../../assets/Img/sandra.png";
 import paula from "../../assets/Img/paula.png";
 import federico from "../../assets/Img/federico.jpg";
 import ricardo from "../../assets/Img/ricardo.png";
+import { NavLink } from "react-router-dom";
 
 const Team = () => {
   const { t } = useTranslation("global");
@@ -16,6 +17,12 @@ const Team = () => {
   useEffect(() => {
     AOS.init();
   }, []);
+
+  const lipaula = "https://www.linkedin.com/in/paula-vincent-336217177/";
+  const liconrado = "https://www.linkedin.com/in/conrado-adler-08b3b726/";
+  const lisandra = "https://www.linkedin.com/in/sandra-durman-05858624/";
+  const liricardo = "https://www.linkedin.com/in/ricardo-de-cristobal-782900145/";
+  const lifederico = "https://www.linkedin.com/in/fwajnerman/";
   return (
     <section
       id="team"
@@ -31,14 +38,15 @@ const Team = () => {
           <div className={`mb-3 ${style.card}`}>
             <img src={paula} alt="avatar" />
             <div className={style.cardContent}>
-              <p className={style.cardTitle}>Paula Vincent</p>
-              <p className={style.cardDescription}>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco.
+              <p className={` ${style.cardTitle}`}>Paula Vincent</p>
+              {/* <p className={`fw-regular`}>COO</p> */}
+              <p className={`fw-regular`}>{t("team.paulat")}</p>
+
+              <p className={`mt-5 ${style.cardDescription}`}>
+              {t("team.paula")}
               </p>
               <div className={style.icons}>
-                <a to="">
+                {/* <a to="">
                   <svg
                     width="35"
                     height="35"
@@ -50,8 +58,8 @@ const Team = () => {
                       d="M19.435 4.065H4.565a2.5 2.5 0 0 0-2.5 2.5v10.87a2.5 2.5 0 0 0 2.5 2.5h14.87a2.5 2.5 0 0 0 2.5-2.5V6.565a2.5 2.5 0 0 0-2.5-2.5Zm-14.87 1h14.87a1.489 1.489 0 0 1 1.49 1.39c-2.47 1.32-4.95 2.63-7.43 3.95a6.172 6.172 0 0 1-1.06.53a2.083 2.083 0 0 1-1.67-.39c-1.42-.75-2.84-1.51-4.25-2.26c-1.14-.6-2.3-1.21-3.44-1.82a1.491 1.491 0 0 1 1.49-1.4Zm16.37 12.37a1.5 1.5 0 0 1-1.5 1.5H4.565a1.5 1.5 0 0 1-1.5-1.5V7.6c2.36 1.24 4.71 2.5 7.07 3.75a5.622 5.622 0 0 0 1.35.6a2.872 2.872 0 0 0 2-.41c1.45-.76 2.89-1.53 4.34-2.29c1.04-.56 2.07-1.1 3.11-1.65Z"
                     />
                   </svg>
-                </a>
-                <a href="">
+                </a> */}
+                <a href={lipaula}>
                   <svg
                     width="35"
                     height="35"
@@ -72,13 +80,14 @@ const Team = () => {
             <img src={conrado} alt="avatar" />
             <div className={style.cardContent}>
               <p className={style.cardTitle}>Conrado Adler</p>
-              <p className={style.cardDescription}>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco.
+              {/* <p className={`fw-regular`}>CTO</p> */}
+              <p className={`fw-regular`}>{t("team.conradot")}</p>
+
+              <p className={`mt-5 ${style.cardDescription}`}>
+              {t("team.conrado")}
               </p>
               <div className={style.icons}>
-                <a to="">
+                {/* <a to="">
                   <svg
                     width="35"
                     height="35"
@@ -90,8 +99,8 @@ const Team = () => {
                       d="M19.435 4.065H4.565a2.5 2.5 0 0 0-2.5 2.5v10.87a2.5 2.5 0 0 0 2.5 2.5h14.87a2.5 2.5 0 0 0 2.5-2.5V6.565a2.5 2.5 0 0 0-2.5-2.5Zm-14.87 1h14.87a1.489 1.489 0 0 1 1.49 1.39c-2.47 1.32-4.95 2.63-7.43 3.95a6.172 6.172 0 0 1-1.06.53a2.083 2.083 0 0 1-1.67-.39c-1.42-.75-2.84-1.51-4.25-2.26c-1.14-.6-2.3-1.21-3.44-1.82a1.491 1.491 0 0 1 1.49-1.4Zm16.37 12.37a1.5 1.5 0 0 1-1.5 1.5H4.565a1.5 1.5 0 0 1-1.5-1.5V7.6c2.36 1.24 4.71 2.5 7.07 3.75a5.622 5.622 0 0 0 1.35.6a2.872 2.872 0 0 0 2-.41c1.45-.76 2.89-1.53 4.34-2.29c1.04-.56 2.07-1.1 3.11-1.65Z"
                     />
                   </svg>
-                </a>
-                <a href="">
+                </a> */}
+                <a href={liconrado}>
                   <svg
                     width="35"
                     height="35"
@@ -112,13 +121,14 @@ const Team = () => {
             <img src={ricardo} alt="avatar" />
             <div className={style.cardContent}>
               <p className={style.cardTitle}>Ricardo de Cristobal</p>
-              <p className={style.cardDescription}>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco.
+              {/* <p className={`fw-regular`}>CSO</p> */}
+              <p className={`fw-regular`}>{t("team.ricardot")}</p>
+
+              <p className={`mt-5 ${style.cardDescription}`}>
+              {t("team.ricardo")}
               </p>
               <div className={style.icons}>
-                <a to="">
+                {/* <a to="">
                   <svg
                     width="35"
                     height="35"
@@ -130,8 +140,8 @@ const Team = () => {
                       d="M19.435 4.065H4.565a2.5 2.5 0 0 0-2.5 2.5v10.87a2.5 2.5 0 0 0 2.5 2.5h14.87a2.5 2.5 0 0 0 2.5-2.5V6.565a2.5 2.5 0 0 0-2.5-2.5Zm-14.87 1h14.87a1.489 1.489 0 0 1 1.49 1.39c-2.47 1.32-4.95 2.63-7.43 3.95a6.172 6.172 0 0 1-1.06.53a2.083 2.083 0 0 1-1.67-.39c-1.42-.75-2.84-1.51-4.25-2.26c-1.14-.6-2.3-1.21-3.44-1.82a1.491 1.491 0 0 1 1.49-1.4Zm16.37 12.37a1.5 1.5 0 0 1-1.5 1.5H4.565a1.5 1.5 0 0 1-1.5-1.5V7.6c2.36 1.24 4.71 2.5 7.07 3.75a5.622 5.622 0 0 0 1.35.6a2.872 2.872 0 0 0 2-.41c1.45-.76 2.89-1.53 4.34-2.29c1.04-.56 2.07-1.1 3.11-1.65Z"
                     />
                   </svg>
-                </a>
-                <a href="">
+                </a> */}
+                <a href={liricardo}>
                   <svg
                     width="35"
                     height="35"
@@ -158,13 +168,14 @@ const Team = () => {
             <img src={sandra} alt="avatar" />
             <div className={style.cardContent}>
               <p className={style.cardTitle}>Sandra Durman</p>
-              <p className={style.cardDescription}>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco.
+              {/* <p className={`fw-regular`}>CIO</p> */}
+              <p className={`fw-regular`}>{t("team.sandrat")}</p>
+
+              <p className={`mt-5 ${style.cardDescription}`}>
+              {t("team.sandra")}
               </p>
               <div className={style.icons}>
-                <a to="">
+                {/* <a to="">
                   <svg
                     width="35"
                     height="35"
@@ -176,8 +187,8 @@ const Team = () => {
                       d="M19.435 4.065H4.565a2.5 2.5 0 0 0-2.5 2.5v10.87a2.5 2.5 0 0 0 2.5 2.5h14.87a2.5 2.5 0 0 0 2.5-2.5V6.565a2.5 2.5 0 0 0-2.5-2.5Zm-14.87 1h14.87a1.489 1.489 0 0 1 1.49 1.39c-2.47 1.32-4.95 2.63-7.43 3.95a6.172 6.172 0 0 1-1.06.53a2.083 2.083 0 0 1-1.67-.39c-1.42-.75-2.84-1.51-4.25-2.26c-1.14-.6-2.3-1.21-3.44-1.82a1.491 1.491 0 0 1 1.49-1.4Zm16.37 12.37a1.5 1.5 0 0 1-1.5 1.5H4.565a1.5 1.5 0 0 1-1.5-1.5V7.6c2.36 1.24 4.71 2.5 7.07 3.75a5.622 5.622 0 0 0 1.35.6a2.872 2.872 0 0 0 2-.41c1.45-.76 2.89-1.53 4.34-2.29c1.04-.56 2.07-1.1 3.11-1.65Z"
                     />
                   </svg>
-                </a>
-                <a href="">
+                </a> */}
+                <a href={lisandra}>
                   <svg
                     width="35"
                     height="35"
@@ -198,13 +209,14 @@ const Team = () => {
             <img src={federico} alt="avatar" />
             <div className={style.cardContent}>
               <p className={style.cardTitle}>Federico Wajnerman</p>
-              <p className={style.cardDescription}>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco.
+              {/* <p className={`fw-regular`}>CEO</p> */}
+              <p className={`fw-regular`}>{t("team.federicot")}</p>
+
+              <p className={`mt-5 ${style.cardDescription}`}>
+              {t("team.federico")}
               </p>
               <div className={style.icons}>
-                <a to="">
+                {/* <a to="">
                   <svg
                     width="35"
                     height="35"
@@ -216,8 +228,8 @@ const Team = () => {
                       d="M19.435 4.065H4.565a2.5 2.5 0 0 0-2.5 2.5v10.87a2.5 2.5 0 0 0 2.5 2.5h14.87a2.5 2.5 0 0 0 2.5-2.5V6.565a2.5 2.5 0 0 0-2.5-2.5Zm-14.87 1h14.87a1.489 1.489 0 0 1 1.49 1.39c-2.47 1.32-4.95 2.63-7.43 3.95a6.172 6.172 0 0 1-1.06.53a2.083 2.083 0 0 1-1.67-.39c-1.42-.75-2.84-1.51-4.25-2.26c-1.14-.6-2.3-1.21-3.44-1.82a1.491 1.491 0 0 1 1.49-1.4Zm16.37 12.37a1.5 1.5 0 0 1-1.5 1.5H4.565a1.5 1.5 0 0 1-1.5-1.5V7.6c2.36 1.24 4.71 2.5 7.07 3.75a5.622 5.622 0 0 0 1.35.6a2.872 2.872 0 0 0 2-.41c1.45-.76 2.89-1.53 4.34-2.29c1.04-.56 2.07-1.1 3.11-1.65Z"
                     />
                   </svg>
-                </a>
-                <a href="">
+                </a> */}
+                <a href={lifederico}>
                   <svg
                     width="35"
                     height="35"

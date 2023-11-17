@@ -1,0 +1,49 @@
+/* .bg {
+  background: #ece7e2;
+} */
+.bg{
+  background: var(--n);
+}
+
+
+.imgLab {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30rem;
+}
+
+.imgLab img {
+  width: 90%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  margin-top: 8rem;
+  justify-content: center;
+}
+.descriptionText {
+  text-align: start;
+}
+
+@media (max-width: 767px) {
+  .descriptionText {
+    text-align: center;
+  }
+  .imgLab img {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 1024px) {
+  .descriptionText {
+    text-align: center;
+  }
+  .imgLab {
+    height: 20rem;
+  }
+  .imgLab img {
+    margin-top: 0;
+  }
+}

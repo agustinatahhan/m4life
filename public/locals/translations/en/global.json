@@ -2,7 +2,8 @@
     "nav": {
         "links": {
             "what_we_do": "What we do",
-            "our_product": "Our product",
+            "problem": "The problem",
+            "our_solution": "Our solution",
             "our_team": "Our team",
             "contact_us": "Contact us"
         }
@@ -12,6 +13,13 @@
     },
     "what_we_do":{
         "title": "We promote crop growth in extreme environments and under abiotic stress."
+    },
+    "problem": {
+        "title": "Microambiental problems",
+        "description": "Deforestation causes massive problems. 40% of it is associated to clearing land for agriculture. This happens because half of the crop losses are due to abiotic stress, which means that the soil quality is not good enough to keep producing food. This problem not only affects biodiversity, but also put 200 million people at a risk of hunger in the upcoming years.",
+        "des1": "40% deforestation to expand croplands",
+        "des2": "50% crop losses due to abiotic stress",
+        "des3": "200M people at risk of hunger"
     },
     "how_we_do":{
         "title": "How we do it?",
@@ -25,17 +33,37 @@
     "where_we_do":{
         "title": "Where we do it?"
     },
-    "our_product": {
-        "title": "Our product"    },
+    "our_solution": {
+        "title": "Our solution",
+        "description": "We isolate microbes from the roots of plants that grow in highly stressful environments. Then, we developed a bio-training process in which we enhance stress resistance and crops adaptation. Afterwards, we combine the microbes with a formulation to improve shelf life, and we apply them as a seed coating. The seeds are the vehicle to transport the bio-trained microbes to the soil, resulting in a boost in plant growth and a recovery in soil biodiversity.",
+        "last": " Our products are non-GMO, really easy to use and perfectly compatible with other technologies"
+    },
+    "phrase": {
+        "title": "We developed the first solution based in bio-trained microbes"
+    },
     "team": {
         "our_team": "Our Team",
         "science": "Science and Technology",
         "business": "Product Development and business",
-        "advisors": "Mentors and advisors"
+        "advisors": "Mentors and advisors",
+        "paulat": "Chief Operating Officer",
+        "paula": "Microbiologist specialist in physiology",
+        "ricardot": "Chief Scientific Officer",
+        "ricardo": "Microbiologist specialist in plant-microbes interactions",
+        "conradot": "Chief Technology Officer",
+        "conrado": "Microbiologist specialist in microbial ecology",
+        "sandrat": "Chief Innovation Officer",
+        "sandra": "Specialist in biologicals development and commercialization",
+        "federicot": "Chief Executive Officer",
+        "federico": "Specialist in finance and bussines"
     },
     "with_us": {
-        "title": "With us",
-        "mentors": "Mentors and advisors"
+        "title": "Supporting us",
+        "mentors": "Mentors and advisors",
+        "lino": "Former Science Minister of Argentina",
+        "carlos": "Former CEO Indigo Argentina Comm. Head Syngenta AR",
+        "nicolas": "Former Global Sales & Comm. Manager Schlumberger",
+        "cesar": "Former Director of Public Credit and National Treasury of Colombia"
     },
     "contact": {
         "title": "Contact us",

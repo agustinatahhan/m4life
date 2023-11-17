@@ -4,11 +4,12 @@ import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import style from "./AreWithUs.module.css";
 import conicet from "../../assets/Img/conicet.png";
-import agredes from "../../assets/Img/agredes.jpeg";
-import agrality from "../../assets/Img/agrality.png";
-import ee from "../../assets/Img/ee.png";
-import rizobacter from "../../assets/Img/rizobacter.png";
-import sf500 from "../../assets/Img/SF500.png";
+// import agredes from "../../assets/Img/agredes.jpeg";
+// import agrality from "../../assets/Img/agrality.png";
+// import ee from "../../assets/Img/ee.png";
+// import rizobacter from "../../assets/Img/rizobacter.png";
+import sf500 from "../../assets/Img/sf.png";
+import mc from "../../assets/Img/mc.png";
 // import avatar from "../../assets/Img/avatar.png";
 import carlos from "../../assets/Img/carlos.jpg";
 import cesar from "../../assets/Img/cesar.png";
@@ -28,17 +29,15 @@ const AreWithUs = () => {
       <div className="container">
         <div className="row">
           <div className="col-lg-6">
-            <h2 class="display-5 fw-regular my-5">{t("with_us.mentors")}</h2>
-            <div class="row row-cols-2">
+            <h2 class="my-5">{t("with_us.mentors")}</h2>
+            <div class="row row-cols-2" data-aos="fade-up">
               <div className={style.card}>
                 <div className={style.profileImage}>
                   <img src={lino} alt="" />
                 </div>
                 <div className={style.textContainer}>
                   <p className={`fw-regular fs-5 text-center`}>Lino Barañao</p>
-                  <p className={`fw-light text-center`}>
-                    Former Science Minister of Argentina
-                  </p>
+                  <p className={`fw-light text-center`}>{t("with_us.lino")}</p>
                 </div>
               </div>
 
@@ -49,7 +48,7 @@ const AreWithUs = () => {
                 <div className={style.textContainer}>
                   <p className={`fw-regular fs-5 text-center`}>Carlos Becco</p>
                   <p className={`fw-light text-center`}>
-                    Former CEO Indigo Argentina Comm. Head Syngenta AR
+                    {t("with_us.carlos")}
                   </p>
                 </div>
               </div>
@@ -61,7 +60,7 @@ const AreWithUs = () => {
                 <div className={style.textContainer}>
                   <p className={`fw-regular fs-5 text-center`}>Nicolás Adur</p>
                   <p className={`fw-light text-center`}>
-                    Former Global Sales & Comm. Manager Schlumberger
+                    {t("with_us.nicolas")}
                   </p>
                 </div>
               </div>
@@ -72,25 +71,36 @@ const AreWithUs = () => {
                 </div>
                 <div className={style.textContainer}>
                   <p className={`fw-regular fs-5 text-center`}>Cesar Arias</p>
-                  <p className={`fw-light text-center`}>
-                    Former Director of Public Credit and National Treasury of
-                    Colombia
-                  </p>
+                  <p className={`fw-light text-center`}>{t("with_us.cesar")}</p>
                 </div>
               </div>
             </div>
           </div>
           <div className="col-lg-6">
-            <h2 class="display-5 fw-regular my-5">{t("with_us.title")}</h2>
-            <div class="row row-cols-2">
-              <div class="col">
+            <h2 class="my-5">{t("with_us.title")}</h2>
+            <div class="row row-cols-2" data-aos="fade-up">
+              <div class="col mb-5">
                 <img
                   src={conicet}
                   className={`rounded img-fluid ${style.imgPartners}`}
                   alt="..."
                 />
               </div>
-              <div class="col">
+              <div class="col mb-5">
+                <img
+                  src={sf500}
+                  className={`rounded img-fluid ${style.imgPartners}`}
+                  alt="..."
+                />
+              </div>
+              <div class="col mb-5">
+                <img
+                  src={mc}
+                  className={`rounded img-fluid ${style.imgPartners}`}
+                  alt="..."
+                />
+              </div>
+              {/* <div class="col">
                 <img
                   src={agredes}
                   className={`rounded img-fluid ${style.imgPartners}`}
@@ -103,42 +113,14 @@ const AreWithUs = () => {
                   className={`rounded img-fluid ${style.imgPartners}`}
                   alt="..."
                 />
-              </div>
-              <div class="col">
-                <img
-                  src={sf500}
-                  className={`rounded img-fluid ${style.imgPartners}`}
-                  alt="..."
-                />
-              </div>
-              <div class="col">
-                <img
-                  src={agrality}
-                  className={`rounded img-fluid ${style.imgPartners}`}
-                  alt="..."
-                />
-              </div>
-              <div class="col">
+              </div> */}
+              {/* <div class="col">
                 <img
                   src={ee}
                   className={`rounded img-fluid ${style.imgPartners}`}
                   alt="..."
                 />
-              </div>
-              <div class="col">
-                <img
-                  src={agrality}
-                  className={`rounded img-fluid ${style.imgPartners}`}
-                  alt="..."
-                />
-              </div>
-              <div class="col">
-                <img
-                  src={agrality}
-                  className={`rounded img-fluid ${style.imgPartners}`}
-                  alt="..."
-                />
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

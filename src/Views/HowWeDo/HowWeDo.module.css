@@ -16,6 +16,25 @@
   height: 5rem;
   margin: 1rem 0;
 }
+
+/* .im:hover {
+  transform: scale(1.1); 
+  transition: transform 0.5s ease-in-out; 
+} */
+
+.im:hover {
+  transform: rotate(360deg);
+  transition: transform 1s ease-in-out;
+}
+
+.imgLab {
+  width: 90%;
+  height: 30rem;
+  object-fit: cover;
+  border-radius: 10px;
+  align-self: center;
+}
+
 @media (max-width: 767px) {
   .carr img {
     height: 25rem;

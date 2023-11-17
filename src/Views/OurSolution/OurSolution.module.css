@@ -1,0 +1,103 @@
+.bg {
+  /* background: linear-gradient(to top, var(--v2), var(--v3)); */
+  /* background: var(--n); */
+  background: white;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: auto;
+  height: 100%;
+}
+
+.containerCenter {
+  width: 100%;
+  margin: 0;
+}
+
+.textContent {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 1;
+}
+
+.textContent.full {
+  grid-column: span 12;
+  max-width: 100%;
+  gap: 3rem;
+}
+
+.grid2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: self-start;
+  justify-content: center;
+  gap: 3rem;
+  margin: 0 4rem;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  margin: 3rem;
+}
+
+.textContainer h2 {
+  font-size: 3rem;
+  text-align: center;
+  color: black;
+}
+
+.textContainer p {
+  color: black;
+  text-align: start;
+  font-size: 25px;
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
+
+.imgLab {
+  width: 90%;
+  height: 30rem;
+  object-fit: cover;
+  border-radius: 10px;
+  align-self: center;
+}
+
+.im {
+  width: 5rem;
+  height: 5rem;
+  margin: 1rem 0;
+}
+
+.im:hover {
+  transform: rotate(360deg);
+  transition: transform 1s ease-in-out;
+}
+
+.solutionText {
+  text-align: start;
+}
+
+@media (max-width: 767px) {
+  .im {
+    width: 3rem;
+    height: 3rem;
+    margin: 1rem 0;
+  }
+
+  .txt {
+    font-size: 8.5px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .solutionText {
+    text-align: center;
+  }
+}

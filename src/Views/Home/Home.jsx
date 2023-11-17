@@ -1,9 +1,11 @@
 import Landing from "../Landing/Landing";
 import WhatWeDo from "../WhatWeDo/WhatWeDo";
-import HowWeDo from "../HowWeDo/HowWeDo";
-import OurProduct from "../OurProduct/OurProduct";
+// import HowWeDo from "../HowWeDo/HowWeDo";
+import Problem from "../Problem/Problem";
+import OurSolution from "../OurSolution/OurSolution";
 import Team from "../Team/Team";
 import AreWithUs from "../AreWithUs/AreWithUs";
+import Phrase from "../Phrase/Phrase";
 // import Footer from "../../Components/Footer/Footer";
 
 const Home = () => {
@@ -11,9 +13,11 @@ const Home = () => {
     <>
     <Landing />
       <WhatWeDo/>
-      <HowWeDo/>
+      <Problem/>
+      {/* <HowWeDo/> */}
       {/* <WhereWeDo/> */}
-      <OurProduct/>
+      <OurSolution/>
+      <Phrase/>
       <Team />
       <AreWithUs/>
       {/* <Footer/> */}

@@ -2,7 +2,8 @@
     "nav": {
         "links": {
             "what_we_do": "Qué hacemos",
-            "our_product": "Nuestro Producto",
+            "problem": "Problemática",
+            "our_solution": "Nuestra solución",
             "our_team": "Nuestro Equipo",
             "contact_us": "Contáctanos"
         }
@@ -13,31 +14,57 @@
     "what_we_do":{
         "title": "Promovemos el crecimiento de cultivos en entornos extremos y bajo estrés abiótico."
     },
+    "problem": {
+        "title": "Problemas microambientales",
+        "description": "La deforestación causa enormes problemas. El 40% de ella está asociada al desmonte de tierras para la agricultura. Esto sucede porque la mitad de las pérdidas de cosechas se deben al estrés abiótico, lo que significa que la calidad del suelo no es lo suficientemente buena como para seguir produciendo alimentos. Este problema no sólo afecta a la biodiversidad, sino que también pone a 200 millones de personas en riesgo de pasar hambre en los próximos años",
+        "des1": "40% de deforestación para ampliar tierras de cultivo",
+        "des2": "50% de pérdidas de cosechas por estrés abiótico",
+        "des3": "200M de personas en riesgo de hambre"
+    },
     "how_we_do":{
         "title": "Cómo lo hacemos?",
         "description": "Transportamos microorganismos hacia el suelo en semillas, para potenciar el crecimiento de las plantas y restablecer la biodiversidad del suelo.",
-        "source": "Fuente: sequía, calor, salinidad del suelo",
-        "microbes": "Selección de microorganismos",
-        "training": "Entrenamiento para resistir al estrés y mejorar afinidad a las plantas",
-        "formulation": "La formula mejora la conservación y la supervivencia de las semillas",
-        "use": "Modo de uso: recubrimiento de semillas"
+        "source": "Fuente: sequía, calor, suelo salino",
+        "microbes": "Selección de microbios",
+        "training": "Entreno para resistir estrés y mejorar afinidad a las plantas",
+        "formulation": "La formula mejora la conservación y supervivencia de las semillas",
+        "use": "Uso: recubrimiento de semillas"
     },
     "where_we_do":{
         "title": "Dónde lo hacemos?"
     },
-    "our_product": {
-        "title": "Nuestro producto"
+    "our_solution": {
+        "title": "Nuestra solución",
+        "description": "Aislamos microbios de las raíces de plantas que crecen en entornos muy estresantes. Luego, desarrollamos un proceso de bioentrenamiento en el que mejoramos la resistencia al estrés y la adaptación de los cultivos. Después, combinamos los microbios con una formulación para mejorar la vida útil, y los aplicamos como recubrimiento de semillas. Las semillas son el vehículo para transportar los microbios bioentrenados al suelo, lo que se traduce en un aumento del crecimiento de las plantas y una recuperación de la biodiversidad del suelo.",
+        "last": " Nuestros productos no son transgénicos, son muy fáciles de usar y perfectamente compatibles con otras tecnologías"
+    },
+    "phrase": {
+        "title": "Desarrollamos la primera solución basada en microbios bioentrenados"
     },
     "team": {
         "our_team": "Nuestro Equipo",
         "science": "Ciencia y tecnología",
         "business": "Desarrollo de productos y negocios",
-        "advisors": "Mentores y asesores"
+        "advisors": "Mentores y asesores",
+        "paulat": "Directora de opreaciones",
+        "paula": "Microbióloga especialista en fisiología",
+        "ricardot": "Director científico",
+        "ricardo": "Microbiólogo especialista en interacciones entre plantas y microbios",
+        "conradot": "Director de tecnología",
+        "conrado": "Microbiólogo especialista en ecología microbiana",
+        "sandrat": "Directora de innovación",
+        "sandra": "Especialista en desarrollo y comercialización de productos biológicos",
+        "federicot": "Director ejecutivo",
+        "federico": "Especialista en finanzas y negocios"
 
     },
     "with_us": {
-        "title": "Junto a nosotros",
-        "mentors": "Mentores y asesores"
+        "title": "Nos acompañan",
+        "mentors": "Mentores y asesores",
+        "lino": "Ex Ministro de Ciencia de Argentina",
+        "carlos": "Ex CEO Indigo Argentina Comm. Jefe Syngenta AR",
+        "nicolas": "Ex Director Global de Ventas y Com. Manager Schlumberger",
+        "cesar": "Ex Director de Crédito Público y Tesoro Nacional de Colombia"
     },
     "contact": {
         "title": "Contactate con nosotros",

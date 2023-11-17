@@ -1,5 +1,4 @@
 import style from "./HowWeDo.module.css";
-import plants from "../../assets/Img/plants.jpg";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
@@ -8,12 +7,8 @@ import imagen1 from "../../assets/Img/soja.jpeg";
 import imagen2 from "../../assets/Img/test.jpeg";
 import imagen3 from "../../assets/Img/lab1.jpeg";
 import imagen4 from "../../assets/Img/lab2.jpeg";
-import i1 from "../../assets/Img/1.png";
-import i2 from "../../assets/Img/2.png";
-import i3 from "../../assets/Img/3.png";
-import i4 from "../../assets/Img/4.png";
-import i5 from "../../assets/Img/5.png";
-import flecha from "../../assets/Img/flecha.png";
+
+import howwe from "../../assets/Img/howwe.png";
 
 const HowWeDo = () => {
   const { t } = useTranslation("global");
@@ -28,7 +23,7 @@ const HowWeDo = () => {
     >
       <div className="container">
         <div className="row align-items-center justify-content-center">
-          <div className="col-lg-6 text-center mb-4">
+          {/* <div className="col-lg-6 text-center mb-4">
             <div
               id="carouselExampleInterval"
               className="carousel slide"
@@ -89,8 +84,11 @@ const HowWeDo = () => {
                 <span className="visually-hidden">Next</span>
               </button>
             </div>
-          </div>
-          <div className="col-lg-6 mb-5" data-aos="fade-left">
+          </div> */}
+           {/* <div className="col-lg-6 text-center mb-5">
+            <img src={howwe} alt="plant" className={style.imgLab} />
+          </div> */}
+          {/* <div className="col-lg-6 mb-5" data-aos="fade-left">
             <h2 className="display-3 fw-bold mb-4">{t("how_we_do.title")}</h2>
             <p className="fs-5 fw-regular text-center">
               {t("how_we_do.description")}
@@ -99,30 +97,30 @@ const HowWeDo = () => {
               <div class="d-flex row">
                 <div class="col">
                   <img className={`${style.im}`} src={i1} alt="img" />
-                  <p className={style.txt}>{t("how_we_do.source")}</p>
+                  <p className={`fst-italic ${style.txt}`}>{t("how_we_do.source")}</p>
                 </div>
                 <div class="col">
-                  <p className={style.txt}>{t("how_we_do.microbes")}</p>
+                  <p className={`fst-italic ${style.txt}`}>{t("how_we_do.microbes")}</p>
 
                   <img className={`${style.im}`} src={i2} alt="img" />
                 </div>
                 <div class="col">
                   <img className={`${style.im}`} src={i3} alt="img" />
-                  <p className={style.txt}>{t("how_we_do.training")}</p>
+                  <p className={`fst-italic ${style.txt}`}>{t("how_we_do.training")}</p>
                 </div>
                 <div class="col">
-                  <p className={style.txt}>{t("how_we_do.formulation")}</p>
+                  <p className={`fst-italic ${style.txt}`}>{t("how_we_do.formulation")}</p>
 
                   <img className={`${style.im}`} src={i4} alt="img" />
                 </div>
                 <div class="col">
                   <img className={`${style.im}`} src={i5} alt="img" />
-                  <p className={style.txt}>{t("how_we_do.use")}</p>
+                  <p className={`fst-italic ${style.txt}`}>{t("how_we_do.use")}</p>
                 </div>
               </div>
             </div>
-            <img className="w-100" src={flecha} alt="flecha"/>
-          </div>
+            <img className="w-100 " src={flecha} alt="flecha"/>
+          </div> */}
         </div>
       </div>
     </section>
