@@ -1,5 +1,6 @@
 .bg {
-  background: var(--n);
+  background: linear-gradient(to top, var(--v2), var(--v3), var(--v3));
+
 }
 
 .imgLab {
@@ -18,6 +19,10 @@
   align-items: center;
   margin-top: 8rem;
   justify-content: center;
+  transition: transform 0.3s ease-in-out;
+}
+.imgLab img:hover {
+  transform: scale(1.1); 
 }
 
 .descriptionText {
