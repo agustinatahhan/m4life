@@ -15,9 +15,6 @@ const Footer = () => {
                 className={`img-fluid mb-3 ${style.logoFooter}`}
               />
             </a>
-            <p className="mb-0 fw-light">
-              Produced by DKZ Studio © 2023 Todos los derechos reservados
-            </p>
           </div>
           <div className="col-md-4 text-right mt-4">
             <a

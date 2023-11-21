@@ -9,10 +9,10 @@
         }
     },
     "header": {
-        "title": "Desarrollamos soluciones microbiológicas para la agricultura y el ambiente"
+        "title": "Desarrollamos la primera solución basada en microbios bioentrenados"
     },
     "what_we_do":{
-        "title": "Promovemos el crecimiento de cultivos en entornos extremos y bajo estrés abiótico."
+        "title": "Soluciones microbiológicas para la agricultura y el medio ambiente"
     },
     "problem": {
         "title": "Problemas microambientales",
@@ -38,8 +38,13 @@
         "description": "Aislamos microbios de las raíces de plantas que crecen en entornos muy estresantes. Luego, desarrollamos un proceso de bioentrenamiento en el que mejoramos la resistencia al estrés y la adaptación de los cultivos. Después, combinamos los microbios con una formulación para mejorar la vida útil, y los aplicamos como recubrimiento de semillas. Las semillas son el vehículo para transportar los microbios bioentrenados al suelo, lo que se traduce en un aumento del crecimiento de las plantas y una recuperación de la biodiversidad del suelo.",
         "last": " Nuestros productos no son transgénicos, son muy fáciles de usar y perfectamente compatibles con otras tecnologías"
     },
-    "phrase": {
-        "title": "Desarrollamos la primera solución basada en microbios bioentrenados"
+    "trials": {
+        "title": "Pruebas de nuestro producto",
+        "description": "Hemos realizado más de 70 ensayos de campo para validar nuestro desarrollo en soja, trigo, maíz, girasol, garbanzo y otros, con resultados sorprendentes. En la soja, por ejemplo, vemos un 28% de aumento del rendimiento en promedio, y un aumento de la biomasa y la nodulación en más del 60%, lo que significa que la planta será más grande y más saludable.",
+        "yield": "Rendimiento: 10-28%",
+        "biomass": "Biomasa: 10-60%",
+        "nodulation": "Nodulación: 70%",
+        "last": "En el lado izquierdo, aplicamos nuestro producto."
     },
     "team": {
         "our_team": "Nuestro Equipo",

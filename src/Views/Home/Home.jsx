@@ -5,7 +5,8 @@ import Problem from "../Problem/Problem";
 import OurSolution from "../OurSolution/OurSolution";
 import Team from "../Team/Team";
 import AreWithUs from "../AreWithUs/AreWithUs";
-import Phrase from "../Phrase/Phrase";
+import Trials from "../Trials/Trials";
+// import Phrase from "../Phrase/Phrase";
 // import Footer from "../../Components/Footer/Footer";
 
 const Home = () => {
@@ -17,7 +18,8 @@ const Home = () => {
       {/* <HowWeDo/> */}
       {/* <WhereWeDo/> */}
       <OurSolution/>
-      <Phrase/>
+      {/* <Phrase/> */}
+      <Trials/>
       <Team />
       <AreWithUs/>
       {/* <Footer/> */}

@@ -9,10 +9,10 @@
         }
     },
     "header": {
-        "title": "We develop Microbiological Solutions for agriculture and the environment"
+        "title": "We developed the first solution based in bio-trained microbes"
     },
     "what_we_do":{
-        "title": "We promote crop growth in extreme environments and under abiotic stress."
+        "title": "Microbiological solutions for Agriculture and the Environment"
     },
     "problem": {
         "title": "Microambiental problems",
@@ -38,8 +38,13 @@
         "description": "We isolate microbes from the roots of plants that grow in highly stressful environments. Then, we developed a bio-training process in which we enhance stress resistance and crops adaptation. Afterwards, we combine the microbes with a formulation to improve shelf life, and we apply them as a seed coating. The seeds are the vehicle to transport the bio-trained microbes to the soil, resulting in a boost in plant growth and a recovery in soil biodiversity.",
         "last": " Our products are non-GMO, really easy to use and perfectly compatible with other technologies"
     },
-    "phrase": {
-        "title": "We developed the first solution based in bio-trained microbes"
+    "trials": {
+        "title": "Testing our product",
+        "description": "We have conducted over 70 field trials to validate our development in soybean, wheat, maize, sunflower, chickpea, and others, with amazing results. In soybean, for example, we see a 28% of yield increase on average, and an increase in Biomass and nodulation in more than 60%, which means that the plant will be bigger and healthier.",
+        "yield": "Yield: 10-28%",
+        "biomass": "Biomass: 10-60%",
+        "nodulation": "Nodulation: 70%",
+        "last": "On the left hand side we applied our product."
     },
     "team": {
         "our_team": "Our Team",

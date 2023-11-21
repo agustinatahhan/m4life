@@ -42,7 +42,7 @@ const Team = () => {
               {/* <p className={`fw-regular`}>COO</p> */}
               <p className={`fw-regular`}>{t("team.paulat")}</p>
 
-              <p className={`mt-5 ${style.cardDescription}`}>
+              <p className={`mt-5 fw-light text-center ${style.cardDescription}`}>
               {t("team.paula")}
               </p>
               <div className={style.icons}>
@@ -83,7 +83,7 @@ const Team = () => {
               {/* <p className={`fw-regular`}>CTO</p> */}
               <p className={`fw-regular`}>{t("team.conradot")}</p>
 
-              <p className={`mt-5 ${style.cardDescription}`}>
+              <p className={`my-5 fw-light text-center ${style.cardDescription}`}>
               {t("team.conrado")}
               </p>
               <div className={style.icons}>
@@ -124,7 +124,7 @@ const Team = () => {
               {/* <p className={`fw-regular`}>CSO</p> */}
               <p className={`fw-regular`}>{t("team.ricardot")}</p>
 
-              <p className={`mt-5 ${style.cardDescription}`}>
+              <p className={`my-5 fw-light text-center ${style.cardDescription}`}>
               {t("team.ricardo")}
               </p>
               <div className={style.icons}>
@@ -161,7 +161,7 @@ const Team = () => {
 
         <h2>{t("team.business")}</h2>
         <div
-          class="row row-cols-4 align-items-center justify-content-center column-gap-5 row-gap-3 mt-5 mb-5"
+          class="row row-cols-4 align-items-center justify-content-center column-gap-5 row-gap-3 my-5 mb-5"
           data-aos="fade-down"
         >
           <div className={`${style.card}`}>
@@ -171,7 +171,7 @@ const Team = () => {
               {/* <p className={`fw-regular`}>CIO</p> */}
               <p className={`fw-regular`}>{t("team.sandrat")}</p>
 
-              <p className={`mt-5 ${style.cardDescription}`}>
+              <p className={`my-5 fw-light text-center ${style.cardDescription}`}>
               {t("team.sandra")}
               </p>
               <div className={style.icons}>
@@ -212,7 +212,7 @@ const Team = () => {
               {/* <p className={`fw-regular`}>CEO</p> */}
               <p className={`fw-regular`}>{t("team.federicot")}</p>
 
-              <p className={`mt-5 ${style.cardDescription}`}>
+              <p className={`my-5 fw-light text-center ${style.cardDescription}`}>
               {t("team.federico")}
               </p>
               <div className={style.icons}>
