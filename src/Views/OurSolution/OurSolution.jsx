@@ -3,7 +3,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useTranslation } from "react-i18next";
 import { useEffect } from "react";
-import lab from "../../assets/Img/lab1.jpeg";
+// import lab from "../../assets/Img/lab1.jpeg";
 import i1 from "../../assets/Img/1.png";
 import i2 from "../../assets/Img/2.png";
 import i3 from "../../assets/Img/3.png";
@@ -34,33 +34,33 @@ const OurSolution = () => {
         </div>
         <div className="col-lg-6 mb-5" data-aos="fade-left">
           
-          <div class="container text-center mt-5">
-            <div class="d-flex row">
-              <div class="col">
-                <img className={`${style.im}`} src={i1} alt="img" />
+          <div className="container text-center mt-5">
+            <div className="d-flex row">
+              <div className="col">
+                <img className={`${style.im}`} src={i1} alt="img" loading="lazy"  />
                 <p className={`fst-italic ${style.txt}`}>{t("how_we_do.source")}</p>
               </div>
-              <div class="col">
+              <div className="col">
                 <p className={`fst-italic ${style.txt}`}>{t("how_we_do.microbes")}</p>
 
-                <img className={`${style.im}`} src={i2} alt="img" />
+                <img className={`${style.im}`} src={i2} alt="img" loading="lazy"  />
               </div>
-              <div class="col">
-                <img className={`${style.im}`} src={i3} alt="img" />
+              <div className="col">
+                <img className={`${style.im}`} src={i3} alt="img" loading="lazy"  />
                 <p className={`fst-italic ${style.txt}`}>{t("how_we_do.training")}</p>
               </div>
-              <div class="col">
+              <div className="col">
                 <p className={`fst-italic ${style.txt}`}>{t("how_we_do.formulation")}</p>
 
-                <img className={`${style.im}`} src={i4} alt="img" />
+                <img className={`${style.im}`} src={i4} alt="img" loading="lazy"  />
               </div>
-              <div class="col">
-                <img className={`${style.im}`} src={i5} alt="img" />
+              <div className="col">
+                <img className={`${style.im}`} src={i5} alt="img" loading="lazy"  />
                 <p className={`fst-italic ${style.txt}`}>{t("how_we_do.use")}</p>
               </div>
             </div>
           </div>
-          <img className="w-100 " src={flecha} alt="flecha"/>
+          <img className="w-100 " src={flecha} alt="flecha" loading="lazy" />
         </div>
       </div>
     </div>

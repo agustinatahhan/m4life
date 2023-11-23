@@ -13,6 +13,7 @@ const Footer = () => {
                 src={logo}
                 alt="Logo de la empresa"
                 className={`img-fluid mb-3 ${style.logoFooter}`}
+                loading="lazy"
               />
             </a>
           </div>

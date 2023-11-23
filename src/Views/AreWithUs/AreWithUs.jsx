@@ -29,11 +29,11 @@ const AreWithUs = () => {
       <div className="container">
         <div className="row">
           <div className="col-lg-6">
-            <h2 class="my-5">{t("with_us.mentors")}</h2>
-            <div class="row row-cols-2" data-aos="fade-up">
+            <h2 className="my-5">{t("with_us.mentors")}</h2>
+            <div className="row row-cols-2" data-aos="fade-up">
               <div className={style.card}>
                 <div className={style.profileImage}>
-                  <img src={lino} alt="" />
+                  <img src={lino} alt=""  loading="lazy"/>
                 </div>
                 <div className={style.textContainer}>
                   <p className={`fw-regular fs-5 text-center`}>Lino Barañao</p>
@@ -43,7 +43,7 @@ const AreWithUs = () => {
 
               <div className={style.card}>
                 <div className={style.profileImage}>
-                  <img src={carlos} alt="" />
+                  <img src={carlos} alt=""  loading="lazy"/>
                 </div>
                 <div className={style.textContainer}>
                   <p className={`fw-regular fs-5 text-center`}>Carlos Becco</p>
@@ -55,7 +55,7 @@ const AreWithUs = () => {
 
               <div className={style.card}>
                 <div className={style.profileImage}>
-                  <img src={nicolas} alt="" />
+                  <img src={nicolas} alt=""  loading="lazy"/>
                 </div>
                 <div className={style.textContainer}>
                   <p className={`fw-regular fs-5 text-center`}>Nicolás Adur</p>
@@ -67,7 +67,7 @@ const AreWithUs = () => {
 
               <div className={style.card}>
                 <div className={style.profileImage}>
-                  <img src={cesar} alt="" />
+                  <img src={cesar} alt=""  loading="lazy"/>
                 </div>
                 <div className={style.textContainer}>
                   <p className={`fw-regular fs-5 text-center`}>Cesar Arias</p>
@@ -77,23 +77,23 @@ const AreWithUs = () => {
             </div>
           </div>
           <div className="col-lg-6">
-            <h2 class="my-5">{t("with_us.title")}</h2>
-            <div class="row row-cols-2" data-aos="fade-up">
-              <div class="col mb-5">
+            <h2 className="my-5">{t("with_us.title")}</h2>
+            <div className="row row-cols-2" data-aos="fade-up">
+              <div className="col mb-5">
                 <img
                   src={conicet}
                   className={`rounded img-fluid ${style.imgPartners}`}
-                  alt="..."
+                  alt="..." 
                 />
               </div>
-              <div class="col mb-5">
+              <div className="col mb-5">
                 <img
                   src={sf500}
                   className={`rounded img-fluid ${style.imgPartners}`}
                   alt="..."
                 />
               </div>
-              <div class="col mb-5">
+              <div className="col mb-5">
                 <img
                   src={mc}
                   className={`rounded img-fluid ${style.imgPartners}`}

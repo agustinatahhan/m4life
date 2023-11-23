@@ -1,7 +1,7 @@
 import style from "./Nav.module.css";
 import { useTranslation } from "react-i18next";
 import { useState } from "react";
-import i18next from "i18next";
+// import i18next from "i18next";
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -47,17 +47,20 @@ const Nav = () => {
   useEffect(() => {
     AOS.init();
   }, []);
-  const handleMenuClick = () => {
-    setShowOptions((prevShowOptions) => !prevShowOptions);
-  };
+  // const handleMenuClick = () => {
+  //   setShowOptions((prevShowOptions) => !prevShowOptions);
+  // };
   return (
-   
-<nav className={`navbar navbar-expand-lg bg-tertiary p-3 fixed-top ${style.navbarIdea}`}>      <div class={`container-fluid d-flex mx-5`}>
-        <a class="navbar-brand my-2 fw-bold fs-1" href="/">
-          <img className={style.logo} src={logo} alt="logo" />
+    <nav
+      className={`navbar navbar-expand-lg bg-tertiary p-3 fixed-top ${style.navbarIdea}`}
+    >
+      {" "}
+      <div className={`container-fluid d-flex mx-5`}>
+        <a className="navbar-brand my-2 fw-bold fs-1" href="/">
+          <img className={style.logo} src={logo} alt="logo" loading="eager" />
         </a>
         <button
-          class={`navbar-toggler menu`}
+          className={`navbar-toggler menu`}
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent"
@@ -65,36 +68,51 @@ const Nav = () => {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon"></span>
         </button>
         <div
-          class={`collapse navbar-collapse justify-content-evenly`}
+          className={`collapse navbar-collapse justify-content-evenly`}
           id="navbarSupportedContent"
-          
         >
-          <ul class={`navbar-nav mb-2 mb-lg-0 fw-medium fs-4}`}>
+          <ul className={`navbar-nav mb-2 mb-lg-0 fw-medium fs-4}`}>
             <li className={`nav-item justify-content-center ${style.links}`}>
-              <a class="nav-link me-4 text-white" aria-current="page" href="/#Whatwedo">
+              <a
+                className="nav-link me-4 text-white"
+                aria-current="page"
+                href="/#Whatwedo"
+              >
                 {t("nav.links.what_we_do")}
               </a>
             </li>
             <li className={`nav-item justify-content-center ${style.links}`}>
-              <a class="nav-link me-4 text-white" aria-current="page" href="/#theproblem">
+              <a
+                className="nav-link me-4 text-white"
+                aria-current="page"
+                href="/#theproblem"
+              >
                 {t("nav.links.problem")}
               </a>
             </li>
             <li className={`nav-item justify-content-center ${style.links}`}>
-              <a class="nav-link me-4 text-white" aria-current="page" href="/#oursolution">
+              <a
+                className="nav-link me-4 text-white"
+                aria-current="page"
+                href="/#oursolution"
+              >
                 {t("nav.links.our_solution")}
               </a>
             </li>
             <li className={`nav-item justify-content-center ${style.links}`}>
-              <a class="nav-link me-4 text-white" href="/#team">
+              <a className="nav-link me-4 text-white" href="/#team">
                 {t("nav.links.our_team")}
               </a>
             </li>
             <li className={`nav-item justify-content-center ${style.links}`}>
-              <NavLink class="nav-link me-4 text-white" aria-current="page" to="/contact">
+              <NavLink
+                class="nav-link me-4 text-white"
+                aria-current="page"
+                to="/contact"
+              >
                 {t("nav.links.contact_us")}
               </NavLink>
             </li>

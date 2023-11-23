@@ -39,7 +39,7 @@ const Trials = () => {
           </div>
           <div className={`col text-center mb-5 mx-2 `} data-aos="fade-left">
             <div className={style.imgLab}>
-            <img src={suelo} alt="plant"/>
+            <img src={suelo} alt="plant" loading="lazy"/>
             </div>
           </div>
         </div>

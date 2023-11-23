@@ -1,5 +1,5 @@
 import style from "./Team.module.css";
-import avatar from "../../assets/Img/avatar.png";
+// import avatar from "../../assets/Img/avatar.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
@@ -9,7 +9,7 @@ import sandra from "../../assets/Img/sandra.png";
 import paula from "../../assets/Img/paula.png";
 import federico from "../../assets/Img/federico.jpg";
 import ricardo from "../../assets/Img/ricardo.png";
-import { NavLink } from "react-router-dom";
+// import { NavLink } from "react-router-dom";
 
 const Team = () => {
   const { t } = useTranslation("global");
@@ -28,15 +28,15 @@ const Team = () => {
       id="team"
       className={`min-vh-100 d-flex align-items-center justify-content-center ${style.bg}`}
     >
-      <div class="container">
+      <div className="container">
         <h2 className="display-3 fw-bold my-5">{t("team.our_team")}</h2>
         <h2>{t("team.science")}</h2>
         <div
-          class="row row-cols-4 align-items-center justify-content-center column-gap-5 row-gap-3 mt-5 mb-5"
+          className="row row-cols-4 align-items-center justify-content-center column-gap-5 row-gap-3 mt-5 mb-5"
           data-aos="fade-down"
         >
           <div className={`mb-3 ${style.card}`}>
-            <img src={paula} alt="avatar" />
+            <img src={paula} alt="avatar" loading="lazy" />
             <div className={style.cardContent}>
               <p className={` ${style.cardTitle}`}>Paula Vincent</p>
               {/* <p className={`fw-regular`}>COO</p> */}
@@ -77,7 +77,7 @@ const Team = () => {
           </div>
 
           <div className={`mb-3 ${style.card}`}>
-            <img src={conrado} alt="avatar" />
+            <img src={conrado} alt="avatar" loading="lazy" />
             <div className={style.cardContent}>
               <p className={style.cardTitle}>Conrado Adler</p>
               {/* <p className={`fw-regular`}>CTO</p> */}
@@ -118,7 +118,7 @@ const Team = () => {
           </div>
 
           <div className={`mb-3 ${style.card}`}>
-            <img src={ricardo} alt="avatar" />
+            <img src={ricardo} alt="avatar" loading="lazy" />
             <div className={style.cardContent}>
               <p className={style.cardTitle}>Ricardo de Cristobal</p>
               {/* <p className={`fw-regular`}>CSO</p> */}
@@ -161,11 +161,11 @@ const Team = () => {
 
         <h2>{t("team.business")}</h2>
         <div
-          class="row row-cols-4 align-items-center justify-content-center column-gap-5 row-gap-3 my-5 mb-5"
+          className="row row-cols-4 align-items-center justify-content-center column-gap-5 row-gap-3 my-5 mb-5"
           data-aos="fade-down"
         >
           <div className={`${style.card}`}>
-            <img src={sandra} alt="avatar" />
+            <img src={sandra} alt="avatar" loading="lazy" />
             <div className={style.cardContent}>
               <p className={style.cardTitle}>Sandra Durman</p>
               {/* <p className={`fw-regular`}>CIO</p> */}
@@ -206,7 +206,7 @@ const Team = () => {
           </div>
 
           <div className={`${style.card}`}>
-            <img src={federico} alt="avatar" />
+            <img src={federico} alt="avatar" loading="lazy" />
             <div className={style.cardContent}>
               <p className={style.cardTitle}>Federico Wajnerman</p>
               {/* <p className={`fw-regular`}>CEO</p> */}
