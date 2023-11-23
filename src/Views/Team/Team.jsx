@@ -4,11 +4,11 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
-import conrado from "../../assets/Img/conrado.jpg";
-import sandra from "../../assets/Img/sandra.png";
-import paula from "../../assets/Img/paula.png";
-import federico from "../../assets/Img/federico.jpg";
-import ricardo from "../../assets/Img/ricardo.png";
+import conrado from "../../assets/Img/conrado.webp";
+import sandra from "../../assets/Img/sandra.webp";
+import paula from "../../assets/Img/paula.webp";
+import federico from "../../assets/Img/federico.webp";
+import ricardo from "../../assets/Img/ricardo.webp";
 // import { NavLink } from "react-router-dom";
 
 const Team = () => {

@@ -5,7 +5,7 @@ import { useState } from "react";
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import logo from "../../assets/Img/logom4life.png";
+import logo from "../../assets/Img/logom4life.webp";
 import { NavLink } from "react-router-dom";
 
 const languages = [

@@ -1,5 +1,5 @@
 import style from "./WhatWeDo.module.css";
-import plants from "../../assets/Img/plants.jpg";
+import plants from "../../assets/Img/plants.webp";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";

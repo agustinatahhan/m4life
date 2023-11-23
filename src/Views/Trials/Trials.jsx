@@ -1,5 +1,5 @@
 import style from "./Trials.module.css";
-import suelo from "../../assets/Img/suelo4.jpg";
+import suelo from "../../assets/Img/suelo4.webp";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";

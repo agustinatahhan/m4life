@@ -14,7 +14,7 @@ import mc from "../../assets/Img/mc.png";
 import carlos from "../../assets/Img/carlos.jpg";
 import cesar from "../../assets/Img/cesar.png";
 import lino from "../../assets/Img/lino.png";
-import nicolas from "../../assets/Img/nicolas.png";
+import nicolas from "../../assets/Img/nicolas.webp";
 
 const AreWithUs = () => {
   const { t } = useTranslation("global");
