@@ -3,7 +3,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
-import crop from "../../assets/Img/crop22.jpg";
+import crop from "../../assets/Img/crop22.webp";
 const Landing = () => {
   const { t } = useTranslation("global");
 

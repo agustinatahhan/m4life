@@ -1,5 +1,5 @@
 import style from "./Problem.module.css";
-import suelo from "../../assets/Img/mitad.png";
+import suelo from "../../assets/Img/mitad.webp";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
