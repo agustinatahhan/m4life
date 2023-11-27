@@ -1,11 +1,11 @@
 {
     "nav": {
         "links": {
-            "what_we_do": "What we do",
-            "problem": "The problem",
-            "our_solution": "Our solution",
-            "our_team": "Our team",
-            "contact_us": "Contact us"
+            "what_we_do": "Home",
+            "problem": "Challenge",
+            "our_solution": "Solution",
+            "our_team": "Team",
+            "contact_us": "Contact"
         }
     },
     "header": {
@@ -15,8 +15,8 @@
         "title": "Microbiological solutions for Agriculture and the Environment"
     },
     "problem": {
-        "title": "Microambiental problems",
-        "description": "Deforestation causes massive problems. 40% of it is associated to clearing land for agriculture. This happens because half of the crop losses are due to abiotic stress, which means that the soil quality is not good enough to keep producing food. This problem not only affects biodiversity, but also put 200 million people at a risk of hunger in the upcoming years.",
+        "title": "Challenges for a sustainable future",
+        "description": "Today agriculture is facing a significant challenge: a staggering 40% of global deforestation is driven by the need to expand croplands. This alarming trend is closely tied to another pressing issue—50% of crop losses result from abiotic stress. Abiotic stress, indicative of suboptimal soil and weather conditions, threatens food production on a massive scale. It places the lives of approximately 200 million people in risk of hunger in the upcoming years.",
         "des1": "40% deforestation to expand croplands",
         "des2": "50% crop losses due to abiotic stress",
         "des3": "200M people at risk of hunger"
@@ -34,13 +34,15 @@
         "title": "Where we do it?"
     },
     "our_solution": {
-        "title": "Our solution",
-        "description": "We isolate microbes from the roots of plants that grow in highly stressful environments. Then, we developed a bio-training process in which we enhance stress resistance and crops adaptation. Afterwards, we combine the microbes with a formulation to improve shelf life, and we apply them as a seed coating. The seeds are the vehicle to transport the bio-trained microbes to the soil, resulting in a boost in plant growth and a recovery in soil biodiversity.",
-        "last": " Our products are non-GMO, really easy to use and perfectly compatible with other technologies"
+        "title": "The solution",
+        "description": "Our microorganisms are isolated from the roots of plants thriving in highly stressful environments. Then, a bio-training* process is implemented to improve stress resistance and crop adaptation. Following this, the microorganisms are combined with a formulation designed to enhance their shelf life and survival on seed. This microbiological product can be applied as a seed treatment. In this way, the seeds serve as a carrier for transporting our bio-trained microbes to the soil, contributing to increased plant growth and the restoration of soil biodiversity.",
+        "last1": "Our products are non-GMO",
+        "last2": "Easy to use",
+        "last3": "Compatible with other technologies"
     },
     "trials": {
-        "title": "Testing our product",
-        "description": "We have conducted over 70 field trials to validate our development in soybean, wheat, maize, sunflower, chickpea, and others, with amazing results. In soybean, for example, we see a 28% of yield increase on average, and an increase in Biomass and nodulation in more than 60%, which means that the plant will be bigger and healthier.",
+        "title": "Product testing",
+        "description": "We have conducted over 70 field trials to validate M4Life products on soybean, wheat, maize, sunflower, chickpea, and other crops, with amazing results. Results on soybean, growing in non-optimal conditions, showed 28% of yield increase and more than 60% improvement in biomass and nodulation. Those results represent bigger and healthier plant, even in harsh conditions.",
         "yield": "Yield: 10-28%",
         "biomass": "Biomass: 10-60%",
         "nodulation": "Nodulation: 70%",

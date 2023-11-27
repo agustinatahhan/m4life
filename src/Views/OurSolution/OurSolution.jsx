@@ -23,15 +23,24 @@ const OurSolution = () => {
   >
     <div className="container">
       <div className="row align-items-center justify-content-center">
-         <div className="col-lg-6 text-center mb-4 mt-5" data-aos="fade-right">
-         <h2 className="display-3 fw-bold mb-4">{t("our_solution.title")}</h2>
-          <p className={`fs-5 fw-regular mb-4 ${style.solutionText}`}>
-          {t("our_solution.description")}
-          </p>
-          <p className={`fs-5 fw-bold  ${style.solutionText}`}>
-          {t("our_solution.last")}
-          </p>
-        </div>
+      <div className="col-lg-6 text-center mb-4 mt-5" data-aos="fade-right">
+            <h2 className="display-4 fw-bold">{t("our_solution.title")}</h2>
+            <ul className="mt-4">
+              <li className="fs-5 fw-bold text-start mb-3">
+                {" "}
+                {t("our_solution.last1")}
+              </li>
+              <li className="fs-5 fw-bold text-start  mb-3">
+                {" "}
+                {t("our_solution.last2")}
+              </li>
+              <li className="fs-5 fw-bold text-start  mb-3">
+                {" "}
+                {t("our_solution.last3")}
+              </li>
+            </ul>
+            <p className={`fs-5 fw-regular mb-4 ${style.solutionText}`}>{t("our_solution.description")}</p>
+          </div>
         <div className="col-lg-6 mb-5" data-aos="fade-left">
           
           <div className="container text-center mt-5">

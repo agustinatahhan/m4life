@@ -1,11 +1,11 @@
 {
     "nav": {
         "links": {
-            "what_we_do": "Qué hacemos",
-            "problem": "Problemática",
-            "our_solution": "Nuestra solución",
-            "our_team": "Nuestro Equipo",
-            "contact_us": "Contáctanos"
+            "what_we_do": "Inicio",
+            "problem": "Desafío",
+            "our_solution": "Solución",
+            "our_team": "Equipo",
+            "contact_us": "Contacto"
         }
     },
     "header": {
@@ -15,8 +15,8 @@
         "title": "Soluciones microbiológicas para la agricultura y el medio ambiente"
     },
     "problem": {
-        "title": "Problemas microambientales",
-        "description": "La deforestación causa enormes problemas. El 40% de ella está asociada al desmonte de tierras para la agricultura. Esto sucede porque la mitad de las pérdidas de cosechas se deben al estrés abiótico, lo que significa que la calidad del suelo no es lo suficientemente buena como para seguir produciendo alimentos. Este problema no sólo afecta a la biodiversidad, sino que también pone a 200 millones de personas en riesgo de pasar hambre en los próximos años",
+        "title": "Retos para un futuro sostenible",
+        "description": "Hoy en día, la agricultura se enfrenta a un reto importante: el 40% de la deforestación mundial se debe a la necesidad de ampliar las tierras de cultivo. Esta alarmante tendencia está ligada a otro problema: el 50% de las pérdidas de cosechas se deben al estrés abiótico. El estrés abiótico, indicativo de unas condiciones del suelo y climáticas subóptimas, amenaza la producción de alimentos a gran escala. Pone en peligro de hambruna la vida de unos 200 millones de personas en los próximos años.",
         "des1": "40% de deforestación para ampliar tierras de cultivo",
         "des2": "50% de pérdidas de cosechas por estrés abiótico",
         "des3": "200M de personas en riesgo de hambre"
@@ -34,13 +34,15 @@
         "title": "Dónde lo hacemos?"
     },
     "our_solution": {
-        "title": "Nuestra solución",
+        "title": "La solución",
         "description": "Aislamos microbios de las raíces de plantas que crecen en entornos muy estresantes. Luego, desarrollamos un proceso de bioentrenamiento en el que mejoramos la resistencia al estrés y la adaptación de los cultivos. Después, combinamos los microbios con una formulación para mejorar la vida útil, y los aplicamos como recubrimiento de semillas. Las semillas son el vehículo para transportar los microbios bioentrenados al suelo, lo que se traduce en un aumento del crecimiento de las plantas y una recuperación de la biodiversidad del suelo.",
-        "last": " Nuestros productos no son transgénicos, son muy fáciles de usar y perfectamente compatibles con otras tecnologías"
+        "last1": "Nuestros productos no son transgénicos",
+        "last2": "Fáciles de usar",
+        "last3": "Compatibles con otras tecnologías"
     },
     "trials": {
-        "title": "Pruebas de nuestro producto",
-        "description": "Hemos realizado más de 70 ensayos de campo para validar nuestro desarrollo en soja, trigo, maíz, girasol, garbanzo y otros, con resultados sorprendentes. En la soja, por ejemplo, vemos un 28% de aumento del rendimiento en promedio, y un aumento de la biomasa y la nodulación en más del 60%, lo que significa que la planta será más grande y más saludable.",
+        "title": "Pruebas del producto",
+        "description": "Hemos realizado más de 70 ensayos de campo para validar los productos M4Life en soja, trigo, maíz, girasol, garbanzo y otros cultivos, con resultados sorprendentes. Los resultados en soja, que crecía en condiciones no óptimas, mostraron un 28% de aumento del rendimiento y más de un 60% de mejora en biomasa y nodulación. Estos resultados representan plantas más grandes y sanas, incluso en condiciones adversas.",
         "yield": "Rendimiento: 10-28%",
         "biomass": "Biomasa: 10-60%",
         "nodulation": "Nodulación: 70%",
